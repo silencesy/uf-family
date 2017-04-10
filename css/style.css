@@ -1,0 +1,200 @@
+
+body { font-family: "微软雅黑";}
+/*-- quality-life --*/
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;	
+	overflow: hidden;
+}
+#quality-life .container .life-left {
+	width: 705px;
+	float: left;
+}
+#quality-life .container .life-right {
+	width: 280px;
+	float: left;
+	margin-left: 15px;
+}
+#quality-life .container .life-right .activity-content {
+	margin-bottom: 51px;
+}
+#quality-life .container .articles-listing-title {
+	margin-bottom: 20px;
+}
+#quality-life .container .life-left .life-content:nth-of-type(even) {
+	margin-right: 25px;
+}
+#quality-life .container .life-left .life-content {
+	width: 340px;
+	text-align: center;
+	float: left;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+#quality-life .container .life-left .life-content img {
+	margin-bottom: 13px;
+}
+#quality-life .container .life-left .life-content p {
+	color: #444;
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+#quality-life .container .life-left .life-content span {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+/*-- 翻页 --*/
+.pagination>li {
+    display: inline-block;
+}
+.pagination>li>a, .pagination>li>span {
+	color: #666;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+	background-color: #e1e1e1;
+    border-color: #e1e1e1;
+   /* z-index: 3;*/
+    color: #b4b4b4;
+}
+.pagination {
+	margin: 0;
+}
+.page-run {
+	text-align: center;
+	margin-right: 0 !important;
+	margin-bottom: 20px;
+}
+/*-- all/date --*/
+.select {
+    border: 1px solid #c9c9c9;
+    padding: 0 10px 10px;
+    background-color: #fff;
+    width: 703px;
+    height: 134px;
+}
+.line-dashed {
+    height: 1px;
+    font-size: 1px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.select-type h2 > *, .select-type .col-sm-3 .lead > * {
+    display: inline-block;
+	font-size: 16px;
+	color: #444;
+}
+.select-type li {
+    display: inline-block;
+}
+.select-type li a:hover, .select-type li.active a {
+    background: #1da1f2;
+    border-radius: 2px;
+    color: #fff;
+}
+.select-type .pull-left li a {
+    padding: 1px 16px;
+}
+.select-type li a {
+    line-height: 22px;
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #666;
+    font-size: 14px;
+}
+.select-type .input-group {
+    width: 200px;
+}
+.select-type .input-group .gt-now {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.select-type .form-control {
+    background: #fff;
+    height: 28px;
+}
+
+/*-- activity --*/
+#activity { background-color: #F5F5F5;}
+#activity .header-nav { background-color: #fff;}
+#activity .bottom-article { background-color: #fff;}
+.breadcrumb {
+	font-size: 14px;
+	padding-left: 0;	
+}
+.breadcrumb li a { color: #666;}
+
+
+
+#activity .container .ac-left {
+	width: 705px;
+	float: left;
+	margin-right: 15px;
+}
+#activity .container .ac-right {
+	width: 280px;
+	float: left;
+}
+
+#activity .container .writing {
+    margin: 20px 0;
+}
+#activity .container  .range-control h2 {
+    font-size: 16px;
+
+}
+#activity .container .writing h2 a, .writing h3 a {
+    color: #444;
+    font-size: 14px;
+}
+#activity .container .writing-container .time-stamp {
+    padding-top: 10px;
+}
+#activity .container .tagbala .btn, .kw .btn {
+    height: 22px;
+    line-height: 22px;
+    padding: 0 13px;
+    margin: 0 16px 6px 0;
+    font-size: 14px;
+    background-color: #dadada;
+    border: 0 none;
+    color: #666;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+}
+#activity .container .range-control .uf-calendar .month {
+	margin-top: 35px;
+	width: 70px;
+    background: #1da1f2;
+    color: #fff;
+
+    font-size: 16px;
+    /*border-radius: 4px 4px 0 0;*/
+    padding: 5px 0;
+}
+#activity .container .range-control .uf-calendar .day {
+	width: 70px;
+	height: 37px;
+    line-height: 35px;
+    color: #1da1f2;
+    font-size: 16px;
+    border-top-width: 0;
+    border-left: 5px solid #1da1f2;
+    border-right: 5px solid #1da1f2;
+    border-bottom: 5px solid #1da1f2;
+}
+#activity .container .range-control p {
+    font-size: 14px;
+    color: #444;
+
+}
+#activity .container .ac-list .line-dashed {
+	border-bottom: 1px solid #ddd;
+}
+#activity .container .ac-list .col-sm-3 {
+	padding-left: 0;
+}
