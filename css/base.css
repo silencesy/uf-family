@@ -68,6 +68,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #444;
 }
 
 a:link {
@@ -76,10 +77,12 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #444;
 }
 
 a:hover {
     text-decoration: none;
+    color: #444;
 }
 
 a:active {
@@ -147,6 +150,10 @@ s, i, em {
     float: left;
     height: 40px;
     line-height: 40px;
+}
+
+.header .pointer{
+    cursor: pointer;
 }
 
 .header a{
@@ -719,3 +726,149 @@ s, i, em {
     padding: 2px 0; 
     color: #999;
 }
+/*底部部分结束*/
+
+/*固定导航栏开始*/
+.fixed-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    display: none;
+}
+
+.fixed-nav img {
+    float: left;
+    margin-right: 19px;
+}
+
+
+.fixed-nav .fixed-ul li {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 16px;
+}
+
+.fixed-nav .fixed-ul li a {
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    color: #fff;
+}
+
+#fixed-nav form {
+    height: 30px;
+    line-height: 30px;
+}
+
+#fixed-nav #search-form .dropdown {
+    height: 30px;
+}
+
+#fixed-nav #search-form .dropdown #dropdownMenu1 {
+    height: 30px;
+}
+
+#fixed-nav #search-form  input {
+    height: 30px;
+}
+
+#fixed-nav #search-form button {
+    height: 30px;
+}
+/*固定导航栏开始*/
+
+/*微信弹窗开始*/
+.wechat-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,.3);
+    display: none;
+}
+
+.wechat-layer .layer-box {
+    width: 600px;
+    height: 350px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.wechat-layer .layer-box .layer-title {
+    height: 56px;
+    line-height: 56px;
+    color: #292929;
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+.wechat-layer .layer-box .layer-title .wechat-close {
+    float: right;
+    padding: 0 20px; 
+    color: #CCC;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.wechat-layer .layer-box .layer-content {
+    height: 223px;
+    position: relative;
+}
+
+.wechat-layer .layer-box .layer-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.wechat-layer .layer-box .layer-footer {
+    height: 70px;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+
+.wechat-layer .layer-box .closebtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 30px;
+    margin: auto;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wechat-layer .layer-box .closebtn:hover {
+    background-color: #ccc;
+}
+
+.wechat-layer .layer-box .layer-title .wechat-close:hover {
+    color: #888;
+}
+/*微信弹窗结束*/
+
+
