@@ -153,7 +153,6 @@ body { font-family: "微软雅黑";}
     color: #444;
     margin-top: 13px;
 }
-style.min.css:341
 .text-muted {
     color: #999;
 }
@@ -195,8 +194,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-bottom: 0;	
 }
 .breadcrumb li a { color: #666;}
-
-
 
 .ac-left {
 	width: 705px;
@@ -240,7 +237,6 @@ input[type="text"], input[type="email"], input[type="password"] {
 	width: 70px;
     background: #1da1f2;
     color: #fff;
-
     font-size: 16px;
     /*border-radius: 4px 4px 0 0;*/
     padding: 5px 0;
@@ -270,3 +266,164 @@ input[type="text"], input[type="email"], input[type="password"] {
 #activity .container .ac-right .latest-activity {
     margin-top: 15px;
 }
+
+/*-- event-details --*/
+#event-details .ac-left .writing-container .writing {
+    margin: 20px 0;
+}
+#event-details .ac-left .writing-container h1 {
+    font-size: 24px;
+    color: #444;
+}
+#event-details .ac-left .writing-container .col-sm-5 {
+    width: 31%;
+    padding: 0;
+}
+#event-details .ac-left .writing-container .writing .listings-pic {
+    max-width: 214px;
+    max-height: 155px;
+    width: 214px;
+    height: 155px;
+    
+}
+#event-details .ac-left .writing-container .writing .img-container {
+    overflow: hidden;
+}
+#event-details .ac-left .writing-container .listings-pic img {   
+    // width: auto !important;
+    // height: 100%;    
+}
+#event-details .ac-left .writing-container .writing .col-sm-7 {
+    width: 69%;
+}
+#event-details .ac-left .writing-container .data-dt, .data-dd {
+    display: inline-block;
+    word-break: break-all;
+}
+#event-details .ac-left .writing-container .col-sm-7>.serve-contact {
+    padding-left: 5px;
+}
+#event-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
+    width: 13%;
+}
+#event-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
+    width: 72%;
+}
+#event-details .ac-left .writing-container .venues-list .data-dt {
+    width: 13%;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+#event-details .ac-left .writing-container .venues-list .data-dd {
+    width: 72%;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+#event-details .ac-left .writing-container .text-muted {
+    font-size: 14px;
+    color: #444;
+}
+#event-details .ac-left .writing-container .data-dd span {
+    font-size: 14px;
+    color: #666;
+}
+#event-details .ac-left .writing-container .venues-list .serve-contact {
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#event-details .ac-left .writing-container p {
+    color: #444;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+.tagbala .btn, .kw .btn {
+    height: 22px;
+    line-height: 22px;
+    padding: 0 12px;
+    margin: 0 6px 6px 0;
+    font-size: 14px;
+    background-color: #dadada;
+    border: 0 none;
+    color: #666;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+}
+/*-- Share 未完成--*/
+.share-s {
+    padding-right: 5px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.share li {
+    display: inline-block;
+}
+.share-s li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.jiathis_style_32x32.share .jtico_tsina {
+    background-position: -90px 0;
+}
+.jiathis_style_32x32.share .jtico {
+    background-image: url(../images/share.png);
+    height: 32px;
+    line-height: 32px;
+    padding-left: 38px;
+}
+.jiathis_style_32x32 .jtico_tsina {
+    background-position: 0px 0px;
+}
+.jiathis_style_32x32 .jiathis_txt {
+    float: left;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 32px!important;
+}
+.jiathis_style_32x32 .jtico {
+    text-align: left;
+    overflow: hidden;
+    display: block!important;
+    height: 32px!important;
+    line-height: 32px!important;
+    padding-left: 36px!important;
+    background: url(../images/jiathis_ico_32x32.png) no-repeat left;
+    cursor: pointer;
+}
+.share-s li span {
+    height: 30px;
+    width: 30px;
+}
+/*-- Share end --*/
+
+/*-- Map --*/
+.layout-map {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.text-dark {
+    font-size: 20px;
+    color: #000;
+}
+.map-title {
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.map-title .icon-line {
+    display: inline-block;
+    width: 84px;
+    height: 2px;
+    background: url(../images/line.png) no-repeat;
+    margin-bottom: 5px;
+}
+
+
+/*-- Map end --*/
