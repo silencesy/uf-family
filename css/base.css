@@ -448,6 +448,8 @@ s, i, em {
 .latest-activity {
     margin-top: 28px;
     height: 390px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
 }
 
 .latest-activity .latest-activity-tit {
@@ -456,7 +458,7 @@ s, i, em {
     color: #404040;
     font-size: 28px;
     text-align: center;
-    border: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
     position: relative;
 }
 
@@ -475,12 +477,11 @@ s, i, em {
 }
 
 .latest-activity .activity-content {
-    border: 1px solid #E0E0E0;
     border-top: none;
 }
 
 .latest-activity-con {
-    padding: 15px 12px;
+    padding: 15px;
 }
 
 .latest-activity-con img{
