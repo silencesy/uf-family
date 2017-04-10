@@ -114,8 +114,8 @@ body { font-family: "微软雅黑";}
 .select-type .input-group .gt-now {
     border: 1px solid #ccc;
     border-radius: 4px;
-
 }
+
 .select-type .form-control {
     background: #fff;
     height: 28px;
@@ -198,12 +198,12 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 
 
-#activity .container .ac-left {
+.ac-left {
 	width: 705px;
 	float: left;
 	margin-right: 15px;
 }
-#activity .container .ac-right {
+.ac-right {
 	width: 280px;
 	float: left;
 }
@@ -211,7 +211,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 #activity .container .writing {
     margin: 20px 0;
 }
-#activity .container  .range-control h2 {
+#activity .container .range-control h2 {
     font-size: 16px;
 
 }
