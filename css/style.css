@@ -46,6 +46,10 @@ body { font-family: "微软雅黑";}
 	margin-bottom: 15px;
 	display: inline-block;
 }
+#quality-life .container .life-right .latest-activity {
+    margin-bottom: 51px;
+    margin-top: 0;
+}
 /*-- 翻页 --*/
 .pagination>li {
     display: inline-block;
@@ -116,14 +120,79 @@ body { font-family: "微软雅黑";}
     background: #fff;
     height: 28px;
 }
-
+/*-- email-us --*/
+.email-all {
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    margin: 15px 0;        
+}
+.sidebar-module {
+    padding: 0 15px 15px 15px;
+}
+.email-all h3 {
+    font-size: 24px;
+    color: #444;
+    text-align: center;
+}
+.email-all .icon-line {
+    display: inline-block;
+    width: 84px;
+    height: 2px;
+    background: url(../images/line.png) no-repeat;
+    margin-bottom: -1px;
+}
+.email-all .title-line {
+    border-bottom: 1px solid #ddd;
+    height: 41px;
+    text-align: center;
+    margin-top: 14px;
+}
+.sidebar-module p {
+    line-height: 150%;
+    font-size: 14px;
+    color: #444;
+    margin-top: 13px;
+}
+style.min.css:341
+.text-muted {
+    color: #999;
+}
+p {
+    word-wrap: break-word;
+    white-space: normal;
+}
+.email-us input[type="email"] {
+    margin-top: 16px;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.email-us button[type="submit"] {
+    color: #fff;
+    height: 33px;
+    background: #ad9f85;
+    outline: none !important;
+}
+.btn-all, .w-all {
+    width: 100%;
+}
+.sidebar .btn-sub {
+    font-size: 18px;
+}
 /*-- activity --*/
 #activity { background-color: #F5F5F5;}
 #activity .header-nav { background-color: #fff;}
 #activity .bottom-article { background-color: #fff;}
 .breadcrumb {
 	font-size: 14px;
-	padding-left: 0;	
+	padding-left: 0;
+    padding-bottom: 12px;
+    margin-bottom: 0;	
 }
 .breadcrumb li a { color: #666;}
 
@@ -197,4 +266,7 @@ body { font-family: "微软雅黑";}
 }
 #activity .container .ac-list .col-sm-3 {
 	padding-left: 0;
+}
+#activity .container .ac-right .latest-activity {
+    margin-top: 15px;
 }
