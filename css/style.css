@@ -465,7 +465,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 .layout-map {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .text-dark {
     font-size: 20px;
