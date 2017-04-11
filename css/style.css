@@ -283,8 +283,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     max-width: 214px;
     max-height: 155px;
     width: 214px;
-    height: 155px;
-    
+    height: 155px;    
 }
 #event-details .ac-left .writing-container .writing .img-container {
     overflow: hidden;
@@ -402,7 +401,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 /*-- Share end --*/
 
-/*-- table --*/
+/*--#event-details table --*/
 #event-details .ac-left .text-container p {
     background-color: #dfdfdf;
     font-size: 14px;
@@ -451,12 +450,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 #event-details .ac-left .text-container table tr:nth-of-type(13) td{
     color: #fff;
 }
-
-
-
-
-
-/*-- table end --*/
+/*--#event-details table end --*/
 
 /*-- Map --*/
 .layout-map {
@@ -480,6 +474,110 @@ input[type="text"], input[type="email"], input[type="password"] {
     background: url(../images/line.png) no-repeat;
     margin-bottom: 5px;
 }
-
-
 /*-- Map end --*/
+
+/*-- School-details --*/
+#school-details {
+    background-color: #F5F5F5;
+}
+#school-details .ac-left .writing-container .writing {
+    margin: 20px 0;
+}
+#school-details .ac-left .writing-container h1 {
+    font-size: 24px;
+    color: #444;
+}
+#school-details .ac-left .writing-container .col-sm-5 {
+    width: 31%;
+    padding: 0;
+}
+#school-details .ac-left .writing-container .writing .listings-pic {
+    max-width: 214px;
+    max-height: 138px;
+    width: 214px;
+    height: 138px;    
+}
+#school-details .ac-left .writing-container .writing .img-container {
+    overflow: hidden;
+}
+#school-details .ac-left .writing-container .writing .col-sm-7 {
+    width: 69%;
+}
+#school-details .ac-left .writing-container .data-dt, .data-dd {
+    display: inline-block;
+    word-break: break-all;
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact {
+    padding-left: 5px;
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
+    width: 20%;
+    margin-bottom: 10px;
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt span {
+    font-size: 14px;
+    color: #444;
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
+    width: 75%;
+    margin-bottom: 10px;
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd span {
+    font-size: 14px;
+    color: #666;    
+}
+#school-details .ac-left .writing-container .col-sm-7>.serve-contact .serve-info a {
+    font-size: 14px;
+    color: #ad9f85;
+}
+#school-details .ac-left table {
+    widows: 100%;
+    background-color: #fff;
+}
+#school-details .ac-left table tr {
+    width: 100%;
+    height: 34px;    
+}
+#school-details .ac-left table tr:nth-of-type(4) td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#school-details .ac-left table tr:nth-of-type(6) td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#school-details .ac-left table tr td:nth-of-type(1) {
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+}
+#school-details .ac-left table tr td:nth-of-type(2) {
+    width: 80%;
+    border-bottom: 1px solid #ddd;
+    padding-left: 22px;
+    font-size: 14px;
+    color: #444;
+}
+
+#school-details .ac-left .school-content {
+    width: 100%;
+}
+#school-details .ac-left .school-content div p:nth-of-type(1) {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ad9f85;
+    padding-left: 16px;
+}
+#school-details .ac-left .school-content div p:nth-of-type(2) {
+    padding: 10px 0 10px 16px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+}
+
