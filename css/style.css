@@ -73,7 +73,7 @@
     padding: 0 10px 10px;
     background-color: #fff;
     width: 703px;
-    height: 134px;
+    height: 137px;
 }
 .line-dashed {
     height: 1px;
@@ -94,8 +94,12 @@
     border-radius: 2px;
     color: #fff;
 }
+.select-type .col-sm-9 {
+    width: 83%;
+}
 .select-type .pull-left li a {
-    padding: 1px 16px;
+    padding: 3px 16px;
+    margin-right: 16px;
 }
 .select-type li a {
     line-height: 22px;
@@ -228,10 +232,25 @@ input[type="text"], input[type="email"], input[type="password"] {
     position: relative;
     border-radius: 4px;
 }
+#activity .container .select-type .col-sm-3 {
+    width: 17%;
+}
+#activity .container .select-type .input-group {
+    position: relative;
+}
+#activity .container #event-dateline {
+    width: 200px;
+    height: 28px;
+}
+#activity .container #day2 {
+    position: absolute;
+    right: 7px;
+    top: 3px;
+}
 #activity .container .range-control .uf-calendar .month {
 	margin-top: 35px;
 	width: 70px;
-    background: #1da1f2;
+    background: #ad9f85;
     color: #fff;
     font-size: 16px;
     /*border-radius: 4px 4px 0 0;*/
@@ -241,12 +260,12 @@ input[type="text"], input[type="email"], input[type="password"] {
 	width: 70px;
 	height: 37px;
     line-height: 35px;
-    color: #1da1f2;
+    color: #ad9f85;
     font-size: 16px;
     border-top-width: 0;
-    border-left: 5px solid #1da1f2;
-    border-right: 5px solid #1da1f2;
-    border-bottom: 5px solid #1da1f2;
+    border-left: 5px solid #ad9f85;
+    border-right: 5px solid #ad9f85;
+    border-bottom: 5px solid #ad9f85;
 }
 #activity .container .range-control p {
     font-size: 14px;
@@ -502,7 +521,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#school-details .ac-left table tr td:nth-of-type(1) {
+#school-details .ac-left table td:nth-of-type(1) {
     width: 20%;
     text-align: center;
     border-right: 1px solid #ddd;
@@ -510,12 +529,15 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-size: 16px;
     color: #444;
 }
-#school-details .ac-left table tr td:nth-of-type(2) {
+#school-details .ac-left table td:nth-of-type(2) {
     width: 80%;
     border-bottom: 1px solid #ddd;
     padding-left: 22px;
     font-size: 14px;
     color: #444;
+}
+#school-details .ac-left table tr:nth-of-type(7) td {
+    border-bottom: 0;
 }
 
 #school-details .ac-left .school-content {
@@ -651,7 +673,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 #article-details .related-articles .title .line {
     display: inline-block;
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
     position: absolute;
