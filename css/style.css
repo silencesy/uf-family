@@ -610,9 +610,19 @@ input[type="text"], input[type="email"], input[type="password"] {
     bottom: -1px;
 }
 
+.related-articles .content {
+    padding-top: 20px;
+}
+
 .related-articles .articles-box {
     width: 316px;
     height: 274px;
+    float: left;
+    margin-right: 26px;
+}
+
+.related-articles .articles-box:nth-child(3) {
+    margin-right: 0;
 }
 
 .related-articles .articles-info {
@@ -620,8 +630,19 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-top: none;
 }
 
-.related-articles .articles-info 
+.related-articles .articles-info h3 {
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    padding: 13px 15px;
+}
 
+.related-articles .articles-info p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding-bottom: 15px;
+}
 
 
 
