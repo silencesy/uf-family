@@ -551,6 +551,10 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-bottom: 40px;
 }
 
+#article-details .word-content div:nth-child(2) {
+    margin-bottom: 30px;
+}
+
 #article-details .share-content span {
     float: left;
     color: #444;
@@ -560,6 +564,63 @@ input[type="text"], input[type="email"], input[type="password"] {
 #article-details .share-content span:nth-child(2){
     margin-left: 72px;
 }
+
+#article-details .share-content>a {
+    display: inline-block;
+    float: left;
+    color: #797979;
+    font-size: 14px;
+    background-color: #e1e1e1;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 11px;
+}
+
+/*相关文章*/
+#article-details .related-articles {
+    height: 360px;
+    // background-color: pink;
+}
+
+#article-details .related-articles .title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #DFDFDF;
+    position: relative;
+}
+
+#article-details .related-articles .title span {
+    font-size: 24px;
+    color: #444;
+}
+
+#article-details .related-articles .title a {
+    color: #ABA084;
+    font-style: 16px;
+    float: right;
+}
+
+#article-details .related-articles .title .line {
+    display: inline-block;
+    width: 84px;
+    height: 2px;
+    background: url(../images/line.png) no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.related-articles .articles-box {
+    width: 316px;
+    height: 274px;
+}
+
+.related-articles .articles-info {
+    border: 1px solid #DFDFDF;
+    border-top: none;
+}
+
+.related-articles .articles-info 
 
 
 
