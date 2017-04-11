@@ -133,7 +133,7 @@ body { font-family: "微软雅黑";}
 }
 .email-all .icon-line {
     display: inline-block;
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
     margin-bottom: -1px;
@@ -351,55 +351,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     position: relative;
     border-radius: 4px;
 }
-/*-- Share 未完成--*/
-.share-s {
-    padding-right: 5px;
-}
-.mt-15 {
-    margin-top: 15px;
-}
-.share li {
-    display: inline-block;
-}
-.share-s li {
-    float: left;
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-}
-.jiathis_style_32x32.share .jtico_tsina {
-    background-position: -90px 0;
-}
-.jiathis_style_32x32.share .jtico {
-    background-image: url(../images/share.png);
-    height: 32px;
-    line-height: 32px;
-    padding-left: 38px;
-}
-.jiathis_style_32x32 .jtico_tsina {
-    background-position: 0px 0px;
-}
-.jiathis_style_32x32 .jiathis_txt {
-    float: left;
-    font-size: 22px;
-    text-decoration: none;
-    line-height: 32px!important;
-}
-.jiathis_style_32x32 .jtico {
-    text-align: left;
-    overflow: hidden;
-    display: block!important;
-    height: 32px!important;
-    line-height: 32px!important;
-    padding-left: 36px!important;
-    background: url(../images/jiathis_ico_32x32.png) no-repeat left;
-    cursor: pointer;
-}
-.share-s li span {
-    height: 30px;
-    width: 30px;
-}
-/*-- Share end --*/
 
 /*--#event-details table --*/
 #event-details .ac-left .text-container p {
@@ -415,6 +366,9 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 #event-details .ac-left .text-container p:nth-of-type(4) {
     padding-bottom: 10px;
+}
+#event-details .ac-left .toolbar {
+    margin-top: 14px;
 }
 #event-details .ac-left .text-container table {
     width: 100%;
@@ -469,7 +423,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 .a-title .icon-line {
     display: inline-block;
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
     margin-bottom: 5px;
@@ -481,7 +435,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #F5F5F5;
 }
 #school-details .ac-left .writing-container .writing {
-    margin: 20px 0;
+    margin-top: 20px;
 }
 #school-details .ac-left .writing-container h1 {
     font-size: 24px;
@@ -512,7 +466,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 #school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
     width: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt span {
     font-size: 14px;
@@ -520,7 +474,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 #school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
     width: 75%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd span {
     font-size: 14px;
@@ -529,6 +483,9 @@ input[type="text"], input[type="email"], input[type="password"] {
 #school-details .ac-left .writing-container .col-sm-7>.serve-contact .serve-info a {
     font-size: 14px;
     color: #ad9f85;
+}
+#school-details .ac-left .writing-container .col-sm-7 .share-content {
+    padding: 0;
 }
 #school-details .ac-left table {
     widows: 100%;
@@ -581,12 +538,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #fff;
 }
 
-<<<<<<< HEAD
-=======
-/*-- Map end --*/
-
-
-
 /*文章详情页开始*/
 
 
@@ -606,45 +557,43 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 /*分享部分*/
-#article-details .toolbar {
+.toolbar {
     float: right;
 }
-
-#article-details .toolbar li {
+.toolbar li {
     width: 32px;
     height: 32px;
     float: left;
     margin-left: 10px; 
 }
 
-#article-details .toolbar li:hover {
+.toolbar li:hover {
     opacity: 0.9;
 }
 
-#article-details .toolbar .one {
+.toolbar .one {
     background: url(../images/share.png) no-repeat 0 0;
 }
 
-#article-details .toolbar .two {
+.toolbar .two {
     background: url(../images/share.png) no-repeat -45px 0;
 }
 
-#article-details .toolbar .three {
+.toolbar .three {
     background: url(../images/share.png) no-repeat -90px 0;
 }
 
-#article-details .toolbar .four {
+.toolbar .four {
     background: url(../images/share.png) no-repeat -135px 0;
 }
 
-#article-details .toolbar .five {
+.toolbar .five {
     background: url(../images/share.png) no-repeat -180px 0;
 }
 
-#article-details .share-content {
+.share-content {
     padding: 20px 0 26px 0;
 }
-
 
 #article-details .word-content p,#article-details .word-content div {
     color: #444;
@@ -723,10 +672,6 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 .related-articles .articles-info 
 
-
-
-
-
 /*侧边栏*/
 #article-details .latest-activity {
     height: auto;
@@ -740,4 +685,4 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 
 /*文章详情页结束*/
->>>>>>> e17502619f27073f95d7e33859ba2e7879e7f1fa
+
