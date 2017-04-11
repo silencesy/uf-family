@@ -393,7 +393,7 @@ s, i, em {
 
 .articles-listing-title .icon-line {
     display: inline-block;
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
     position: absolute;
@@ -471,7 +471,7 @@ s, i, em {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
 }
@@ -529,7 +529,7 @@ s, i, em {
 }
 
 .school-news .news-titlte .icon-line {
-    width: 84px;
+    width: 94px;
     height: 2px;
     position: absolute;
     bottom: -1px;
@@ -734,11 +734,13 @@ s, i, em {
     position: absolute;
     top: 0;
     left: 0;
-    height: 50px;
+    height: 45px;
     width: 100%;
-    background-color: #000;
+    background-color: #fff;
     display: none;
     z-index: 10;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
 }
 
 .fixed-nav img {
@@ -758,7 +760,7 @@ s, i, em {
     display: inline-block;
     height: 50px;
     padding: 0 20px;
-    color: #fff;
+    color: #444;
 }
 
 #fixed-nav form {
