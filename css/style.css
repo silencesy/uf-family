@@ -486,3 +486,98 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 
 /*-- Map end --*/
+
+
+
+/*文章详情页开始*/
+
+
+/*文章盒子*/
+#article-details .word-container h1 {
+    font-size: 24px;
+    color: #444;
+    font-weight: 900;
+    margin: 20px 0 16px 0;
+}
+
+#article-details .word-container span {
+    display: inline-block;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 13px;
+}
+
+/*分享部分*/
+#article-details .toolbar {
+    float: right;
+}
+
+#article-details .toolbar li {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-left: 10px; 
+}
+
+#article-details .toolbar li:hover {
+    opacity: 0.9;
+}
+
+#article-details .toolbar .one {
+    background: url(../images/share.png) no-repeat 0 0;
+}
+
+#article-details .toolbar .two {
+    background: url(../images/share.png) no-repeat -45px 0;
+}
+
+#article-details .toolbar .three {
+    background: url(../images/share.png) no-repeat -90px 0;
+}
+
+#article-details .toolbar .four {
+    background: url(../images/share.png) no-repeat -135px 0;
+}
+
+#article-details .toolbar .five {
+    background: url(../images/share.png) no-repeat -180px 0;
+}
+
+#article-details .share-content {
+    padding: 20px 0 26px 0;
+}
+
+
+#article-details .word-content p,#article-details .word-content div {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#article-details .share-content span {
+    float: left;
+    color: #444;
+    font-size: 14px;
+}
+
+#article-details .share-content span:nth-child(2){
+    margin-left: 72px;
+}
+
+
+
+
+
+/*侧边栏*/
+#article-details .latest-activity {
+    height: auto;
+}
+
+#article-details .ad-sli {
+    margin-top: 15px;
+}
+
+
+
+
+/*文章详情页结束*/
