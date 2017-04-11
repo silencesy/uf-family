@@ -447,7 +447,7 @@ s, i, em {
 /*文章右边部分*/
 .latest-activity {
     margin-top: 28px;
-    height: 390px;
+    height: auto;
     background-color: #fff;
     border: 1px solid #E0E0E0;
 }
