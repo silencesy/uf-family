@@ -502,7 +502,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#school-details .ac-left table tr td:nth-of-type(1) {
+#school-details .ac-left table td:nth-of-type(1) {
     width: 20%;
     text-align: center;
     border-right: 1px solid #ddd;
@@ -510,12 +510,15 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-size: 16px;
     color: #444;
 }
-#school-details .ac-left table tr td:nth-of-type(2) {
+#school-details .ac-left table td:nth-of-type(2) {
     width: 80%;
     border-bottom: 1px solid #ddd;
     padding-left: 22px;
     font-size: 14px;
     color: #444;
+}
+#school-details .ac-left table tr:nth-of-type(7) td {
+    border-bottom: 0;
 }
 
 #school-details .ac-left .school-content {
@@ -651,7 +654,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 #article-details .related-articles .title .line {
     display: inline-block;
-    width: 84px;
+    width: 94px;
     height: 2px;
     background: url(../images/line.png) no-repeat;
     position: absolute;
