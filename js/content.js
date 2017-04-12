@@ -19,7 +19,7 @@ $(function(){
 
 	// 导航栏
 	$('.header-nav .navbar-nav li a').on('click',function(){
-		$(this).css('color',"#ad9f85").parent('li').siblings('li').children('a').css('color',"#444");
+        $(this).css('color',"#ad9f85").parent('li').siblings('li').children('a').css('color',"#444");
 	});
 
 	// 固定导航栏
@@ -43,19 +43,12 @@ $(function(){
 	  interval: 4000
 	});
 
-	//
-    // $(".tab-item")
-    $(".tablist > li").on("click",function() {
-        // $(this)
-        //         .addClass("active")
-        //         .siblings("li")
-        //         .removeClass("active");
+    // 主页tab栏
+    $(".tablist > li").on("mouseover",function() {
         var index = $(this).index();
-        // $(".products > div:eq("+index+")")
-        $(".articles-listing-content > div")
-                .eq(index)
-                .addClass("show")
-                .siblings("div")
-                .removeClass("hide");
+        $(this).css("color","#ad9f85").siblings('li').css('color',"#444").parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
+        $(this).css({"color":"#ad9f85","borderBottom":"2px solid #ABA084"}).siblings('li').css({"color":"#444","borderBottom":"none"}).parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
+
     });
+
 });
