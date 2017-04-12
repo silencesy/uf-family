@@ -95,13 +95,13 @@
 				<div class="select">
 					<!-- Begin Type Categories -->
 					<div class="row select-type">
-						<div class="col-sm-3">
+						<div class="col-sm-3 list-type">
 							<p class="lead">
 								<img src="images/type.png" alt="">
 								<span class="text-uppercase"> <i class="fa fa-list-ul"></i>&nbsp;类型</span>
 							</p>
 						</div>
-						<div class="col-sm-9">
+						<div class="col-sm-9 list-all">
 							<ul class="pull-left">
 								<li class="active">
 									<a href="/cn/shanghai//search/school/by/aname.html">全部</a>
@@ -127,13 +127,13 @@
 
 					<!-- Begin Regional Categories -->
 					<div class="row select-type">
-						<div class="col-sm-3">
+						<div class="col-sm-3 list-type">
 							<p class="lead">
 								<img src="images/location.png" alt="">
 								<span class="text-uppercase">&nbsp;地区</span>
 							</p>
 						</div>
-						<div class="col-sm-9">
+						<div class="col-sm-9 list-all">
 							<ul class="pull-left">
 								<li class="active">
 									<a href="/cn/shanghai//search/school/by/aname.html">全部</a>
@@ -159,9 +159,6 @@
 								<li id="rg9">
 								<a href="/cn/shanghai//search/school/by/aname/rg/9.html">虹口</a>
 								</li>
-								<li id="rg20">
-								<a href="/cn/shanghai//search/school/by/aname/rg/20.html">郊区</a>
-								</li>
 								<li id="rg8">
 								<a href="/cn/shanghai//search/school/by/aname/rg/8.html">长宁</a>
 								</li>
@@ -180,64 +177,215 @@
 								<li id="rg10">
 								<a href="/cn/shanghai//search/school/by/aname/rg/10.html">黄浦</a>
 								</li>
+
+								<li class="select-sort">
+									<a href="/cn/shanghai/school/index/by/aname.html" id="sort-name" class="active">
+										<span>按名称<i class="glyphicon glyphicon-arrow-down"></i></span>										
+									</a>
+								</li>
+								<li class="select-sort">
+									<a href="/cn/shanghai/school/index/by/dviews.html" id="sort-view">
+										<span>按热度<i class="glyphicon glyphicon-arrow-down"></i></span>
+									</a>
+								</li>
 							</ul>
-						</div>
-					</div>
-					<!-- End Regional Categories -->
+						</div><!-- End list-all -->
+					</div><!-- End Regional Categories -->
 				</div><!-- End Directory Categories -->
 
-				<!-- Begin School List -->
-				<section class="writing-container">
-					<!-- Begin Sort -->
-					<ul class="select-sort">
-						<li class="pull-left">
-							<a href="/cn/shanghai/school/index/by/aname.html" id="sort-name">
-								<span>按名称</span>
-								<i class="fa fa-arrow-down"></i>
-							</a>
-						</li>
-						<li class="pull-left">
-							<a href="/cn/shanghai/school/index/by/dviews.html" id="sort-view">
-								<span>按热度</span>
-								<i class="fa fa-arrow-down"></i>
-							</a>
-						</li>
-					</ul>				
-					<div class="writing row range-control">
+				<!-- Begin school-info -->
+				<div class="school-info">
+					<div class="writing row">
 						<div class="col-sm-4">
-								<div class="img-container">
-									<a href="/sview/7">
-										<img class="lazy" data-original="/uploads/thumb/201703/LUC-423294_214_160.jpg" alt="LUC国际儿童中心" src="/uploads/404/nopic.jpg" style="display: inline;">
-									</a>
-								</div>
+							<div class="img-container">
+								<a href="">
+									<img src="images/school-list.jpg" alt="">
+								</a>
+							</div>
 						</div>
 						<div class="col-sm-8">
-							<h2 class="kw"><a href="/sview/7">LUC国际儿童中心</a></h2>
-							<!-- School Regional Information -->
-							<ul class="icon-list serve-info">										
-								<li>
-									<a href="/cn/shanghai//search/school/by/aname/rg/13.html"><i class="fa fa-map-marker"></i>&nbsp;浦东新区</a>
-								</li>
-							</ul><!--  --><!-- /End Regional Information/ -->
-							<!-- Address -->
-							<dl class="box-dye serve-contact">
-								<dt class="data-dt">
-									<span class="text-muted">地址</span>
-								</dt>
-								<dd class="data-dd">
-									<span>上海浦东芳甸路779弄233号</span>
-								</dd>
-								<dt class="data-dt">
-									<span class="text-muted">电话/手机</span>
-								</dt>
-								<dd class="data-dd">
-									<span>021 5187 2889</span>
-								</dd>
-							</dl><!-- End Address Information -->
+							<h2 class="zo">
+								<a href="">上海市民办尚德实验学校</a>
+							</h2>
+							<div class="row d-zh">
+								<div class="col-md-3 dz">
+									<p>地址：</p>
+									<p>电话/手机：</p>
+								</div>
+								<div class="col-md-9 dh">
+									<p>上海市浦东秀沿路1688号</p>
+									<p>021 6818 0017</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 xf">
+									<p>地区：
+										<span>浦东新区</span>
+									</p>
+									<p>学费：
+										<span>10000-15000rmb</span>
+									</p>
+								</div>
+								<div class="col-md-4 bj">
+									<p>创建时间：
+										<span>2003年9月</span>
+									</p>
+									<p>班级设置：
+										<span>10-15人</span>
+									</p>
+								</div>
+								<div class="col-md-4 xq">
+									<p>详情</p>
+								</div>			
+							</div>
 						</div>
-					</div>	
-				</section><!-- End School List -->	
-
+					</div><!-- End writing -->
+				</div><!-- End school-info -->	
+				<!-- Begin school-info -->
+				<div class="school-info">
+					<div class="writing row">
+						<div class="col-sm-4">
+							<div class="img-container">
+								<a href="">
+									<img src="images/school-list.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h2 class="zo">
+								<a href="">上海市民办尚德实验学校</a>
+							</h2>
+							<div class="row d-zh">
+								<div class="col-md-3 dz">
+									<p>地址：</p>
+									<p>电话/手机：</p>
+								</div>
+								<div class="col-md-9 dh">
+									<p>上海市浦东秀沿路1688号</p>
+									<p>021 6818 0017</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 xf">
+									<p>地区：
+										<span>浦东新区</span>
+									</p>
+									<p>学费：
+										<span>10000-15000rmb</span>
+									</p>
+								</div>
+								<div class="col-md-4 bj">
+									<p>创建时间：
+										<span>2003年9月</span>
+									</p>
+									<p>班级设置：
+										<span>10-15人</span>
+									</p>
+								</div>
+								<div class="col-md-4 xq">
+									<p>详情</p>
+								</div>			
+							</div>
+						</div>
+					</div><!-- End writing -->
+				</div><!-- End school-info -->
+				<!-- Begin school-info -->
+				<div class="school-info">
+					<div class="writing row">
+						<div class="col-sm-4">
+							<div class="img-container">
+								<a href="">
+									<img src="images/school-list.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h2 class="zo">
+								<a href="">上海市民办尚德实验学校</a>
+							</h2>
+							<div class="row d-zh">
+								<div class="col-md-3 dz">
+									<p>地址：</p>
+									<p>电话/手机：</p>
+								</div>
+								<div class="col-md-9 dh">
+									<p>上海市浦东秀沿路1688号</p>
+									<p>021 6818 0017</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 xf">
+									<p>地区：
+										<span>浦东新区</span>
+									</p>
+									<p>学费：
+										<span>10000-15000rmb</span>
+									</p>
+								</div>
+								<div class="col-md-4 bj">
+									<p>创建时间：
+										<span>2003年9月</span>
+									</p>
+									<p>班级设置：
+										<span>10-15人</span>
+									</p>
+								</div>
+								<div class="col-md-4 xq">
+									<p>详情</p>
+								</div>			
+							</div>
+						</div>
+					</div><!-- End writing -->
+				</div><!-- End school-info -->
+				<!-- Begin school-info -->
+				<div class="school-info">
+					<div class="writing row">
+						<div class="col-sm-4">
+							<div class="img-container">
+								<a href="">
+									<img src="images/school-list.jpg" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<h2 class="zo">
+								<a href="">上海市民办尚德实验学校</a>
+							</h2>
+							<div class="row d-zh">
+								<div class="col-md-3 dz">
+									<p>地址：</p>
+									<p>电话/手机：</p>
+								</div>
+								<div class="col-md-9 dh">
+									<p>上海市浦东秀沿路1688号</p>
+									<p>021 6818 0017</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 xf">
+									<p>地区：
+										<span>浦东新区</span>
+									</p>
+									<p>学费：
+										<span>10000-15000rmb</span>
+									</p>
+								</div>
+								<div class="col-md-4 bj">
+									<p>创建时间：
+										<span>2003年9月</span>
+									</p>
+									<p>班级设置：
+										<span>10-15人</span>
+									</p>
+								</div>
+								<div class="col-md-4 xq">
+									<p>详情</p>
+								</div>			
+							</div>
+						</div>
+					</div><!-- End writing -->
+				</div><!-- End school-info -->
+												
 				<div class="page-run">
 					<div class="pagination-boxes" data-pageurl="/cn/shanghai/education/index/page/0.html" data-pagetotal="2" data-curpage="1">
 						<ul class="am-pagination pagination am-hide-sm-only">

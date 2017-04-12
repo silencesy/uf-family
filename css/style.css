@@ -244,10 +244,10 @@
 /*-- all/date --*/
 .select {
     border: 1px solid #c9c9c9;
-    padding: 0 10px 10px;
+    padding: 20px 0 0px 14px;
     background-color: #fff;
     width: 703px;
-    height: 137px;
+    height: 145px;
 }
 .line-dashed {
     height: 1px;
@@ -269,11 +269,11 @@
     color: #fff;
 }
 .select-type .col-sm-9 {
-    width: 83%;
+    width: 80%;
 }
 .select-type .pull-left li a {
     padding: 3px 16px;
-    margin-right: 16px;
+    margin-right: 14px;
 }
 .select-type li a {
     line-height: 22px;
@@ -408,7 +408,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-radius: 4px;
 }
 #activity .container .select-type .col-sm-3 {
-    width: 17%;
+    width: 20%;
 }
 #activity .container .select-type .input-group {
     position: relative;
@@ -890,10 +890,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding-bottom: 15px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 017060cffd1e23535d078376f8cac6e9e3a772e9
 /*侧边栏*/
 #article-details .latest-activity {
     height: auto;
@@ -909,4 +905,120 @@ input[type="text"], input[type="email"], input[type="password"] {
 /*-- school-list --*/
 #school-list {
     background-color: #F5F5F5; 
+}
+#school-list .ac-left .select {
+    height: 220px;
+}
+#school-list .ac-left .list-type {
+    width: 20%;
+}
+
+#school-list .ac-left .list-all {
+    width: 80%;
+}
+
+#school-list .list-all li a {
+    margin-right: 10px;
+}
+#school-list .list-all .pull-left {
+    margin-bottom: 15px;
+}
+#school-list .list-all .select-sort {
+    margin-top: 15px;
+}
+#school-list .select-sort a.active {
+    background: #1da1f2;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+#school-list .select-sort li {
+    margin-right: 20px;
+}
+#school-list .select-sort li a {
+    color: #000;   
+}
+
+#school-list .school-info {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#school-list .school-info .writing {
+    margin-right: 0;
+}
+#school-list .school-info .col-sm-8 {
+    padding: 0;    
+}
+#school-list .school-info .zo a {
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+#school-list .writing .img-container {
+    max-height: 158px;
+    overflow: hidden;
+}
+#school-list .img-container > a > img {
+    width: 100%;
+    max-width: 100%;
+}
+#school-list .writing .d-zh {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+#school-list .writing .dz {
+    width: 23%;
+    padding: 0; 
+}
+#school-list .writing .dh {
+    padding: 0; 
+}
+#school-list .writing p {
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+#school-list .writing .dz p {
+    color: #444;
+}
+#school-list .writing .dh p {
+    color: #666;
+}
+#school-list .writing .xf {
+    width: 40%;
+    padding-right: 0;
+}
+#school-list .writing .bj {
+    width: 35%;
+    padding-left: 10px;
+}
+#school-list .writing .xq {
+    width: 15%;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #01a4e3;
+    background-color: #01a4e3;
+    border-radius: 4px;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+#school-list .writing .xq p {
+    font-size: 14px;
+    color: #fff !important;
+}
+#school-list .writing .col-md-4 p {
+    font-size: 14px;
+    color: #01a4e3;
+}
+#school-list .writing .col-md-4 p span {
+    color: #666;
 }
