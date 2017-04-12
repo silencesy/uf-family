@@ -180,6 +180,15 @@
 	padding: 0;	
 	overflow: hidden;
 }
+/*-- tab --*/
+#quality-life .container .show {
+    display: block;
+}
+#quality-life .container .articles-listing-box {
+    display: none;
+}
+
+/*-- End tab --*/
 #quality-life .container .life-left {
 	width: 705px;
 	float: left;
@@ -531,6 +540,13 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-left: 15px;
     margin-top: 14px;
 }
+#event-details .ac-right .latest-activity {
+    margin-top: 14px;
+}
+#event-details .ac-left #listingMapContent {
+    height: 500px;
+}
+
 .tagbala .btn, .kw .btn {
     height: 22px;
     line-height: 22px;
