@@ -237,6 +237,7 @@ s, i, em {
 .header-nav {
     height: 50px;
     border: 1px solid #DFDFDF;
+    background-color: #fff;
 }
 
 .header-nav .navbar-nav li{

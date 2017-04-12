@@ -18,7 +18,7 @@
 #quality-life .container .articles-listing-title {
 	margin-bottom: 20px;
 }
-#quality-life .container .life-left .life-content:nth-of-type(even) {
+#quality-life .life-left .articles-listing-box .life-content:nth-of-type(odd) {
 	margin-right: 25px;
 }
 #quality-life .container .life-left .life-content {
@@ -708,7 +708,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding: 13px 15px;
 }
 
-<<<<<<< HEAD
 .related-articles .articles-info p {
     font-size: 14px;
     color: #666;
@@ -716,11 +715,6 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding-bottom: 15px;
 }
 
-
-
-
-=======
->>>>>>> 25c6fc028c946591f0394dbbf3b2875418b182d0
 /*侧边栏*/
 #article-details .latest-activity {
     height: auto;
@@ -730,8 +724,10 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-top: 15px;
 }
 
-
-
-
 /*文章详情页结束*/
 
+
+/*-- school-list --*/
+#school-list {
+    background-color: #F5F5F5; 
+}
