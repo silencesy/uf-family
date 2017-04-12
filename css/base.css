@@ -274,6 +274,11 @@ s, i, em {
     color: #444;
     font-weight: 900;
 }
+
+.header-nav .navbar-nav a.active {
+    color: #ad9f85;
+}
+
 /*导航结束*/
 
 /*广告*/
@@ -367,7 +372,7 @@ s, i, em {
 
 .articles-listing-title {
     height: 53px;
-    line-height: 53px;
+    line-height: 51px;
     border-bottom: 1px solid #DFDFDF;
     position: relative;
 }
@@ -381,15 +386,20 @@ s, i, em {
 
 .articles-listing-title ul {
     float: right;
-    height: 53px;
+    // height: 52px;
 }
 
 .articles-listing-title ul li {
     display: inline-block;
     font-size: 16px;
     color: #444;
-    padding-left: 15px;
+    margin-left: 15px;
     cursor: pointer;
+}
+
+.articles-listing-title ul li.active {
+    color: #ad9f85;
+    border-bottom: 2px solid #ABA084;
 }
 
 .articles-listing-title .icon-line {
@@ -414,15 +424,19 @@ s, i, em {
 
 .articles-list  .articles-listing-content .articles-listing-box {
     padding-top: 20px;
-}
-
-.articles-list  .articles-listing-content .articles-listing-box.hide {
     display: none;
 }
+
 
 .articles-list  .articles-listing-content .articles-listing-box.show {
     display: block;
 }
+
+.articles-listing-title ul li.show {
+    color: #ad9f85;
+    border-bottom: 2px solid #ABA084;
+}
+
 
 .articles-list  .articles-listing-content .articles-sm-box .articles-smbox-info {
     border: 1px solid #E0E0E0;
@@ -898,5 +912,38 @@ s, i, em {
     color: #888;
 }
 /*微信弹窗结束*/
+
+/*tab栏d动画开始*/
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+/*tab栏d动画结束*/
 
 
