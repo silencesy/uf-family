@@ -754,6 +754,11 @@ input[type="text"], input[type="email"], input[type="password"] {
     color: #666;
     background-color: #fff;
 }
+/*-- 图集 --*/
+#school-details .carousel-inner img {
+    width: 705px;
+    height: 440px;
+}
 
 /*文章详情页开始*/
 

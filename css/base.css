@@ -301,6 +301,9 @@ s, i, em {
 }
 
 /*轮播图*/
+#myCarousel .carousel-inner img {
+    width: 705px;
+}
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
