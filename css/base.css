@@ -530,6 +530,7 @@ s, i, em {
 .school-news {
     height: 333px;
     background-color: #F5F5F5;
+    position: relative;
 }
 
 .school-news .news-titlte {
@@ -557,20 +558,24 @@ s, i, em {
     background: url(../images/line.png) no-repeat;
 }
 
-.school-news .news-boxs {
-    height: 276px;
-    padding: 20px 0;
-    position: relative;
+.school-news .diy-Carousel {
+    width: 1000px;
+    height: 236px;
+    overflow: hidden;
 }
 
-.school-news .news-boxs .news-box {
+.school-news ul {
+    height: 276px;
+    width: 3000px;
+    padding: 20px 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.school-news .news-boxs li {
     width: 316px;
     float: left;
     margin-right: 26px;
-}
-
-.school-news .news-boxs .news-box:nth-child(3) {
-    margin-right: 0;
 }
 
 .school-news .news-boxs .news-box p {
@@ -580,17 +585,28 @@ s, i, em {
     margin-top: 12px;
 }
 
-.school-news .news-boxs .arrow {
+.school-news .arrow i {
+    display: inline-block;
+    padding: 20px 0px;
+    background-color: #000;
+    opacity: .4;
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
+    display: none;
+}
+
+.school-news .arrow .arrow-left {
     left: 15px;
 }
 
-.school-news .news-boxs .arrow i {
-    display: inline-block;
-    font-size: 40px;
-    cursor: pointer;
+.school-news .arrow .arrow-right {
+    right: 15px;
+
 }
 
 
@@ -731,7 +747,7 @@ s, i, em {
 }
 
 .footer .about {
-    width: 330px;
+    width: 350px;
     height: 100px;
     // background-color: red;
     float: right;

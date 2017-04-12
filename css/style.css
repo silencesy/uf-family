@@ -621,6 +621,11 @@ input[type="text"], input[type="email"], input[type="password"] {
     background: url(../images/line.png) no-repeat;
     margin-bottom: 5px;
 }
+
+#listingMapContent {
+    width: 705px;
+    height: 350px;
+}
 /*-- Map end --*/
 
 /*-- School-details --*/

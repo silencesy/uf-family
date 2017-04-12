@@ -240,9 +240,7 @@
                             <h2 class="text-dark">地图</h2>
                             <span class="icon-line"></span>
                         </div>
-                        <div id="listingMapContent">
-                            <img src="images/map.png" alt="">
-                        </div>
+                        <div id="listingMapContent"></div>
                     </div>
                 </section>
                 <div class="line-dashed"></div>
@@ -433,5 +431,33 @@
         <script src="js/jquery-3.1.0.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/content.js"></script>
+        <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=14b1ac87ce81e76c481b9ca09bfb8ae1"></script>
+        <script>
+             // 地图
+            (function(){
+                var mapObj = new AMap.Map("listingMapContent",{
+                    level: 16, zooms: [13, 18], lang: 'cn'
+                });                                                                   //创建地图实例
+                mapObj.plugin(["AMap.ToolBar"], function () {
+                    var toolbar = new window.AMap.ToolBar();
+                    toolbar.autoPosition = true;                                     //加载工具条
+                    mapObj.addControl(toolbar);
+                });
+
+                var marker, lat, lng, position;
+                lat = '31.237663';
+                lng = '121.585541';
+                position = new AMap.LngLat(lng, lat);
+                mapObj.setCenter(position);
+                marker = new AMap.Marker({
+                    icon:"http://webapi.amap.com/images/marker_sprite.png",
+                    draggable: false,
+                    position:position
+                });
+                marker.setMap(mapObj);                                            //在地图上添加点
+                map.setFeatures(['road','point','building','bg']);
+                mapObj.setFitView();
+            })();
+        </script>
     </body>
 </html>

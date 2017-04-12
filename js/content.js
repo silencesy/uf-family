@@ -23,20 +23,20 @@ $(function(){
 	});
 
 	// 固定导航栏
-        var h = 192;
-        $(window).scroll(function () {
-            var st = $(document).scrollTop();
-            if(st >= h) {
-                $(".fixed-nav").css({
-                    "position": "fixed",
-                    "top": 0,
-                    "left": 0,
-                    "display": "block"
-                });
-            } else {
-                $(".fixed-nav").css("display","none");
-            }
-        });
+    var h = 192;
+    $(window).scroll(function () {
+        var st = $(document).scrollTop();
+        if(st >= h) {
+            $(".fixed-nav").css({
+                "position": "fixed",
+                "top": 0,
+                "left": 0,
+                "display": "block"
+            });
+        } else {
+            $(".fixed-nav").css("display","none");
+        }
+    });
 
 	// 轮播图控制时间
 	$('#myCarousel').carousel({
@@ -44,11 +44,10 @@ $(function(){
 	});
 
     // 主页tab栏
-    $(".tablist > li").on("mouseover",function() {
+    $(".tablist > li").on("click",function() {
         var index = $(this).index();
         $(this).css("color","#ad9f85").siblings('li').css('color',"#444").parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
         $(this).css({"color":"#ad9f85","borderBottom":"2px solid #ABA084"}).siblings('li').css({"color":"#444","borderBottom":"none"}).parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
-
     });
 
 });
