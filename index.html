@@ -10,6 +10,7 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="font_icon/iconfont.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -492,36 +493,39 @@
         <div class="school-news">
             <div class="news-content banxin">
                 <div class="news-titlte">学校新闻<span class="icon-line"></span></div>
-                <div class="diy-Carousel">
-                    <ul class="news-boxs">
-                        <li class="news-box">
-                           <a href="#">
-                                <img src="images/school-img.jpg" alt="">
-                                <p>8所国际氛围极强的上海双语学校</p>
-                           </a>
-                        </li>
-                        <li class="news-box">
-                           <a href="#">
-                                <img src="images/school-img.jpg" alt="">
-                                <p>8所国际氛围极强的上海双语学校</p>
-                           </a>
-                        </li>
-                        <li class="news-box">
-                            <a href="#">
-                                <img src="images/school-img.jpg" alt="">
-                                <p>8所国际氛围极强的上海双语学校</p>
-                           </a>
-                        </li>
-                        <li class="news-box">
-                            <a href="#">
-                                <img src="images/school-img.jpg" alt="">
-                                <p>8所国际氛围极强的上海双语学校</p>
-                           </a>
-                        </li> 
-                    </ul>
-                    <div class="arrow">
-                        <i class="arrow-left"><</i>
-                        <i class="arrow-right">></i>
+                    <div class="news-boxs">
+                        <div class="swiper-container swiper-container-horizontal">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/school-img.jpg" alt="">
+                                    <p>8所国际氛围极强的上海双语学校</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/school-img.jpg" alt="">
+                                    <p>8所国际氛围极强的上海双语学校</p>
+                     
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/school-img.jpg" alt="">
+                                    <p>8所国际氛围极强的上海双语学校</p>
+                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/school-img.jpg" alt="">
+                                    <p>8所国际氛围极强的上海双语学校</p>
+                                    
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/school-img.jpg" alt="">
+                                    <p>8所国际氛围极强的上海双语学校</p>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-button-next swiper-button-white "></div>
+                                <div class="swiper-button-prev swiper-button-white"></div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
@@ -649,19 +653,6 @@
         <script src="js/jquery-3.1.0.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/content.js"></script>
-
-        <!-- 判断轮播图 -->
-        <script>
-            $(function(){
-              if ($('.news-box').length>3) {
-                $('.news-boxs').mouseenter(function(event) {
-                    $('.arrow i').show();
-                });
-                $('.news-boxs').mouseleave(function(event) {
-                   $('.arrow i').fadeOut();
-                });
-              }
-            });
-        </script>
+        <script src="js/swiper.min.js"></script>
     </body>
 </html>
