@@ -310,17 +310,14 @@ s, i, em {
 
 .index-Carousel {
     height: 630px;
-    width: 705px;
+    width: 70.5%;
     height: 460px;
     float: left;
     margin-right: 15px;
 }
-
-.Carousel-box .index-Carousel .carousel {
-    width: 705px;
-    height: 460px;
+.Carousel-box a img {
+    width: 28%;
 }
-
 .Carousel-box .index-Carousel .carousel-control {
     height: 460px;
     padding-top: 180px;
@@ -329,7 +326,7 @@ s, i, em {
 }
 
 .Carousel-box .index-Carousel .carousel .carousel-caption {
-    width: 705px;
+    width: 100%;
     height: 100px;
     left: 0;
     bottom: 0;
@@ -727,7 +724,8 @@ s, i, em {
 }
 
 .footer img {
-    margin-top: 10px;
+    width: 15%;
+    margin-top: 25px;
 }
 
 .footer .about {
@@ -771,9 +769,6 @@ s, i, em {
 .fixed-nav .banxin #search-form .glyphicon-search {
     color: #666;
 }
-
-
-
 
 .fixed-nav {
     position: absolute;

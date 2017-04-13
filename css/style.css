@@ -190,11 +190,11 @@
 
 /*-- End tab --*/
 #quality-life .container .life-left {
-	width: 705px;
+	width: 70.5%;
 	float: left;
 }
 #quality-life .container .life-right {
-	width: 280px;
+	width: 28%;
 	float: left;
 	margin-left: 15px;
 }
@@ -1046,4 +1046,74 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 #school-list .writing .col-md-4 p span {
     color: #666;
+}
+
+
+
+/**   container 添加 row   **/
+.row {
+    margin: 0 auto;
+}
+.col-sm-9 {
+    padding: 0;
+}
+.col-sm-3 {
+    padding: 0;
+}
+
+
+
+
+/**   自适应各设备 eg:手机、pad等   **/
+@media screen and (min-device-width:240px) and (max-device-width:768px) {
+    .ad-top {
+        width: 100%;
+        
+    }
+    .ad-top img {
+        width: 100%;
+    }
+    #myCarousel .carousel-inner img {
+        width: 50%;
+    }
+    .articles-list {
+        width: 100%;
+    }
+    .articles-listing-title {
+        width: 100%;
+    }
+}
+@media screen and (max-device-width:678px) {
+
+}
+@media screen and (max-device-width:440px) {
+
+}
+/* iphone6 */
+@media screen and (max-device-width:375px) {
+}
+@media screen and (max-device-width:336px) {
+
+}
+/* iphone6plus */
+@media screen and (max-device-width:414px) {
+
+}
+/* iphone5/iphone4 及以下 */
+@media screen and (max-device-width:320px) and (max-device-height:568px) {
+
+}
+/* 平板之类的宽度 1024 以下设备 */
+@media only screen and (min-width: 321px) and (max-width: 1024px) {
+body {
+
+}
+/* 竖屏 */
+@media screen and (orientation:portrait) and (max-width: 720px) {
+
+}
+
+/* 横屏 */
+@media screen and (orientation:landscape) {
+
 }
