@@ -1075,7 +1075,25 @@ input[type="text"], input[type="email"], input[type="password"] {
     }
     .banxin img {
         width: 100%;
+        margin-top: 45px;
     }
+
+    #myCarousel .carousel-inner img {
+        margin-top: 0;
+    }
+
+    .Carousel-box .index-Carousel .carousel .carousel-caption {
+        padding: 20px 0;
+    }
+
+    .Carousel-box .index-Carousel .carousel .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .Carousel-box .carousel .carousel-caption a {
+        font-size: 18px;
+    }
+
     .Carousel-box {
         height: 240px;
     }
