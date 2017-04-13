@@ -1050,70 +1050,76 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 
 
-/**   container 添加 row   **/
-.row {
-    margin: 0 auto;
-}
-.col-sm-9 {
-    padding: 0;
-}
-.col-sm-3 {
-    padding: 0;
-}
 
 
 
 
-/**   自适应各设备 eg:手机、pad等   **/
-@media screen and (min-device-width:240px) and (max-device-width:768px) {
-    .ad-top {
-        width: 100%;
-        
+/***================  响应式  ================***/
+
+@media screen and (max-width:768px) {
+
+    .header {
+        display: none;
     }
-    .ad-top img {
-        width: 100%;
+    .header-nav {
+        display: none;
     }
-    #myCarousel .carousel-inner img {
-        width: 50%;
+    .logo-content .logo-icon {
+        display: none;
     }
-    .articles-list {
+    .logo-content {
+        display: none;
+    }
+    .banxin {
         width: 100%;
     }
-    .articles-listing-title {
+    .banxin img {
         width: 100%;
     }
-}
-@media screen and (max-device-width:678px) {
+    .Carousel-box {
+        height: 240px;
+    }
+    .index-Carousel {
+        height: 260px;
+    }
+    #quality-life .carousel-control.left,#quality-life .carousel-control.right {
+        height: 200px;
+        padding-top: 90px;
+    }
+    #myCarousel {
+        width: 142%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    #quality-life .container .life-left {
+        width: 100%;
+    }
+    #quality-life .container .life-left .life-content {
+        width: 100%;
+    }
+    #quality-life .container .life-left .life-content img {
+        width: 100%;
 
-}
-@media screen and (max-device-width:440px) {
+    }
+    #quality-life .container .life-right {
+        width: 100%;
+        margin-left: 0;
+    }
+    #quality-life .container .life-right .banner {
+        text-align: center;
+    }
 
-}
-/* iphone6 */
-@media screen and (max-device-width:375px) {
-}
-@media screen and (max-device-width:336px) {
 
-}
-/* iphone6plus */
-@media screen and (max-device-width:414px) {
 
-}
-/* iphone5/iphone4 及以下 */
-@media screen and (max-device-width:320px) and (max-device-height:568px) {
-
-}
-/* 平板之类的宽度 1024 以下设备 */
-@media only screen and (min-width: 321px) and (max-width: 1024px) {
-body {
-
-}
-/* 竖屏 */
-@media screen and (orientation:portrait) and (max-width: 720px) {
-
+    .footer {
+        display: none;
+    }
+    .bottom-article {
+        display: none;
+    }
+ 
 }
 
-/* 横屏 */
-@media screen and (orientation:landscape) {
 
-}
