@@ -558,55 +558,36 @@ s, i, em {
     background: url(../images/line.png) no-repeat;
 }
 
-.school-news .diy-Carousel {
-    width: 1000px;
-    height: 236px;
-    overflow: hidden;
+.swiper-container {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
 }
 
-.school-news ul {
-    height: 276px;
-    width: 3000px;
-    padding: 20px 0;
-    position: absolute;
-    overflow: hidden;
-}
-
-.school-news .news-boxs li {
-    width: 316px;
-    float: left;
-    margin-right: 26px;
-}
-
-.school-news .news-boxs .news-box p {
+.swiper-slide {
     text-align: center;
-    color: #444;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 276px;
+}
+
+.swiper-slide {
+    display: block;
     font-size: 16px;
-    margin-top: 12px;
-}
-
-.school-news .arrow i {
-    display: inline-block;
-    padding: 20px 0px;
-    background-color: #000;
-    opacity: .4;
-    font-size: 40px;
-    cursor: pointer;
-    color: #fff;
-    border-radius: 4px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-60%);
-    display: none;
-}
-
-.school-news .arrow .arrow-left {
-    left: 15px;
-}
-
-.school-news .arrow .arrow-right {
-    right: 15px;
-
+    color: #444;
+    line-height: 48px;
 }
 
 
