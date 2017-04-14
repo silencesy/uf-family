@@ -351,8 +351,8 @@ s, i, em {
 
 /*文章部分开始*/
 .articles-list {
-    height: 2000px;
     background-color: #fff;
+    padding-bottom: 25px;
 }
 
 
@@ -360,7 +360,6 @@ s, i, em {
 
 .articles-list .articles-left {
     width: 705px;
-    height: 1500px;
     float: left;
     margin-right: 15px;
 }
@@ -461,7 +460,7 @@ s, i, em {
 
 /*文章右边部分*/
 .latest-activity {
-    margin-top: 24px;
+    margin-top: 20px;
     height: auto;
     background-color: #fff;
     border: 1px solid #E0E0E0;
@@ -597,13 +596,13 @@ s, i, em {
 
 /*底部文章*/ 
 .bottom-article {
-    height: 495px;
+    // height: 495px;
     background-color: #fff;
     padding-top: 20px;
 }
 
 .bottom-article .article-box {
-    height: 492px;
+    // height: 492px;
 }
 
 .bottom-article .article-box .article-content {
@@ -977,6 +976,11 @@ s, i, em {
     top: 16px;
     right: 16px;
     background-color: #fff;
+}
+
+.search-mobile {
+    width: 44px;
+    height: 34px;
 }
 
 /*移动端头部样式结束*/ 
