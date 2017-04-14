@@ -316,7 +316,7 @@
         <!-- 底部部分结束 -->
 
         <!-- 固定导航栏开始 -->
-        <div class="fixed-nav" id="fixed-nav">
+        <div class="fixed-nav hidden-xs" id="fixed-nav">
             <div class="banxin">
                 <img src="images/fixed-logo.jpg" alt="">
                 <ul class="fixed-ul">
@@ -346,6 +346,44 @@
             </div>
         </div>
         <!-- 固定导航栏结束 -->
+
+         <!-- 移动端nav开始 -->
+            <nav class="navbar navbar-default navbar-fixed-top visible-xs " role="navigation">
+                <div class="container-fluid mobile-nav-container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-navbar-collapse">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-navbar-search">
+                            <span class="glyphicon glyphicon-search icon-ufsearch"></span>
+                        </button>
+                        <a href="#"><img src="images/fixed-logo.jpg" alt=""></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">品质生活</a></li>
+                            <li><a href="#">教育</a></li>
+                            <li><a href="#">投资</a></li>
+                            <li><a href="#">乐趣</a></li>
+                            <li><a href="#">学校目录</a></li>
+                            <li><a href="#">活动</a></li>
+                            <li><a href="#">商户列表</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-collapse collapse" id="mobile-navbar-search" aria-expanded="true">
+                        <div class="search-group search-group-mobile">
+                            <form id="mobile-search-form" method="post" action="#">
+                                <input name="keywords" type="search" value="" placeholder="Search school" class="pull-left">
+                                <button type="submit" class="icon-search pull-left"><span class="glyphicon glyphicon-search"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        <!-- 移动端nav结束 -->
 
         <!-- 微信弹出框开始 -->
         <div class="wechat-layer">

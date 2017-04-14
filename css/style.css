@@ -392,6 +392,11 @@ input[type="text"], input[type="email"], input[type="password"] {
 	width: 280px;
 	float: left;
 }
+.container .img-activity {
+    max-height: 140px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 .container .writing {
     margin-top: 20px;
 }
@@ -464,6 +469,11 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 .container .ac-list .col-sm-3 {
 	padding-left: 0;
+    padding-right: 0;
+}
+.container .ac-list .col-sm-3 img {
+    max-width: 100%;
+    width: 185px;
 }
 .container .ac-right .latest-activity {
     margin-top: 15px;
@@ -1054,7 +1064,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 /***================  响应式  ================***/
 
 @media screen and (max-width:768px) {
-    /*-- quality-life 品质生活 --*/
+    /*-- quality-life --*/
     .header {
         display: none;
     }
@@ -1075,87 +1085,126 @@ input[type="text"], input[type="email"], input[type="password"] {
         margin-top: 45px;
     }
 
-    #myCarousel .carousel-inner img {
+    .carousel-inner img {
         margin-top: 0;
     }
 
-    .Carousel-box .index-Carousel .carousel .carousel-caption {
-        padding: 20px 0;
-    }
-
-    .Carousel-box .index-Carousel .carousel .carousel-caption p {
-        font-size: 14px;
-    }
-
-    .Carousel-box .carousel .carousel-caption a {
-        font-size: 18px;
-    }
-
     .Carousel-box {
-        height: 240px;
-    }
-    .index-Carousel {
-        height: 260px;
-    }
-    #quality-life .carousel-control.left,#quality-life .carousel-control.right {
-        height: 200px;
-        padding-top: 90px;
-    }
-    #myCarousel {
-        width: 142%;
+        display: none;
     }
     .container {
         width: 100%;
         padding: 0 15px;
     }
-    #quality-life .container .life-left {
+    .container .life-left {
         width: 100%;
     }
-    #quality-life .container .life-left .life-content {
+    .container .life-left .life-content {
         width: 100%;
     }
-    #quality-life .container .life-left .life-content img {
+    .container .life-left .life-content img {
         width: 100%;
 
     }
-    #quality-life .container .life-right {
+    .container .life-right {
         width: 100%;
         margin-left: 0;
     }
-    #quality-life .container .life-right .banner {
+    .container .life-right .banner {
+        width: 100%;
         text-align: center;
     }
-
-    /*-- activity 活动 --*/
-
-    #activity .select {
-        width: 49%;
-        height: 175px;
+    .container .life-right .banner img {
+        width: 100%;
     }
-    #activity .container .select-type .col-sm-3 {
+
+    /*-- activity --*/
+    .container .select-type .col-sm-3 {
         width: 25%;
     }
-    #activity .container .select-type .col-sm-9 {
+    .container .select-type .col-sm-9 {
         width: 75%;
-    }
-    #activity .container .select-type .col-sm-3 {
-        
     }
     .ac-list .col-xs-7 {
         width: 25%;
     }
     .page-run {
-        width: 50%;
+        width: 100%;
     }
-    #activity .ac-right > a img {
+    .ac-left {
+        width: 100%;
+    }
+    .ac-right > a img {
         display: none;
     }
     .ac-right {
         width: 100%;
     }
+    .select {
+        width: 100%;
+    }
+    .ac-list {
+        width: 100%;
+    }
+    .ac-list .writing {
+        padding: 0 15px;
+    }
+    .ac-list .writing .col-sm-3 {
+        width: 31%;
+    }
+    .ac-list .writing .col-sm-7 {
+        width: 47%;
+        padding-right: 0;
+    }
+    /*-- home-page --*/
 
 
 
+
+    /*-- event-details --*/   
+    .ac-left .writing-container .writing .col-sm-7 {
+        width: 105%;
+        padding-left: 0;
+    }
+    .ac-left #listingMapContent {
+        width: 100%;
+    }
+    .ad-sidergt img {
+        width: 100%;
+    }
+
+
+    /*-- school-details --*/
+    #myCarousel .carousel-inner img {
+        height: 290px;
+    }
+
+    /*-- school-list --*/
+    .school-info .writing {
+        padding: 0 15px;
+    } 
+    .school-info .col-sm-4 {
+        width: 50%;
+    }
+    .school-info .col-sm-4 img {
+        width: 100%;
+    }
+    
+    /*-- article-details --*/
+    .word-content img {
+        width: 100%;
+    }
+    .related-articles .content {
+        padding: 0;
+    }
+    .related-articles .articles-box {
+        margin-left: 26px;
+    }
+    .articles-box {
+        margin-bottom: 20px;
+    }
+
+    
     /*-- footer  --*/
     .footer {
         display: none;
@@ -1163,6 +1212,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     .bottom-article {
         display: none;
     }
+
  
 }
 
