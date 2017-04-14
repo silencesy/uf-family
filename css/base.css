@@ -939,4 +939,42 @@ s, i, em {
 }
 /*tab栏d动画结束*/
 
+/*移动端头部样式开始*/
+
+.mobile-nav-container {
+    background-color: #fff;
+}
+
+.mobile-nav-container img {
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#mobile-navbar-search {
+    height: 50px;
+}
+
+#mobile-navbar-search form {
+    position: relative;
+}
+
+#mobile-navbar-search input {
+   width: 100%;
+   height: 30px;
+   margin-top: 10px;
+   border-radius: 8px;
+   border: 1px solid #ddd;
+   padding-left: 10px;
+}
+
+#mobile-navbar-search button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #fff;
+}
+
+/*移动端头部样式结束*/ 
+
 
