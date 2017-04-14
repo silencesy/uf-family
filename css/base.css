@@ -474,6 +474,7 @@ s, i, em {
     text-align: center;
     border-bottom: 1px solid #DFDFDF;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .latest-activity .latest-activity-tit .icon-line {
@@ -495,7 +496,8 @@ s, i, em {
 }
 
 .latest-activity-con {
-    padding: 15px;
+    padding: 0 15px;
+    overflow: hidden;
 }
 
 .latest-activity-con img{

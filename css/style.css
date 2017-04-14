@@ -1128,6 +1128,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     }
     .container .select-type .col-sm-9 {
         width: 75%;
+        overflow: hidden;
     }
     .ac-list .col-xs-7 {
         width: 25%;
@@ -1161,8 +1162,21 @@ input[type="text"], input[type="email"], input[type="password"] {
         padding-right: 0;
     }
     /*-- home-page --*/
-
-
+    .articles-list {
+        width: 100%;
+    }
+    .Carousel-box {
+        width: 100%;
+    }
+    .articles-list .articles-left .articles-listing {
+        width: 100%;
+    }
+    .articles-list .articles-left {
+        width: 100%;
+    }
+    .articles-listing-title {
+        width: 100%;
+    }
 
 
     /*-- event-details --*/   
@@ -1186,16 +1200,42 @@ input[type="text"], input[type="email"], input[type="password"] {
     }
 
     /*-- school-list --*/
-    .school-info .writing {
-        padding: 0 15px;
+    .school-info .writing .col-sm-4 {
+        padding-left: 15px;
+        padding-right: 0;
+        width: 100%;
     } 
+
     .school-info .col-sm-4 {
-        width: 50%;
-    }
-    .school-info .col-sm-4 img {
         width: 100%;
     }
-    
+    .school-info .col-sm-4 img {
+        width: ;
+    }
+    .school-info .col-sm-8 {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .writing .xf {
+        width: 48%;
+    }
+    .writing .bj {
+        width: 45%;
+    }
+    .writing .xq {
+        width: 20%;
+    }
+
+    .school-list row {
+        width: 100%;
+    }
+    .container .school-list .select-type .col-sm-3 {
+        width: 25%;
+    }
+    .container .school-list .select-type .col-sm-9 {
+        width: 100%;
+    }
+
     /*-- article-details --*/
     .word-content img {
         width: 100%;
