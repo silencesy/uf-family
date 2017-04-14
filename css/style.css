@@ -782,6 +782,12 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-left: 10px; 
 }
 
+.toolbar li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
 .toolbar li:hover {
     opacity: 0.9;
 }
