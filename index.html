@@ -136,7 +136,7 @@
                     </div>
                     <!-- 轮播图结束 -->
                     <div class="articles-listing">
-                        <div class="articles-listing-title">
+                        <div class="articles-listing-title clearfix">
                             <span class="smtitle">品质生活</span>
                             <ul class="tablist">
                                 <li class="active">健康</li>
@@ -204,7 +204,7 @@
                     </div>
                     
                     <div class="articles-listing">
-                        <div class="articles-listing-title">
+                        <div class="articles-listing-title clearfix">
                             <span class="smtitle">教育</span>
                             <ul class="tablist">
                                 <li class="active">专家意见</li>
@@ -291,7 +291,7 @@
                     </div>
 
                     <div class="articles-listing">
-                        <div class="articles-listing-title">
+                        <div class="articles-listing-title clearfix">
                             <span class="smtitle">投资</span>
                             <ul class="tablist">
                                 <li class="active">移民</li>
@@ -358,7 +358,7 @@
                     </div>
 
                     <div class="articles-listing">
-                        <div class="articles-listing-title">
+                        <div class="articles-listing-title clearfix">
                             <span class="smtitle">乐趣</span>
                             <ul class="tablist">
                                 <li class="active">美食</li>
@@ -426,11 +426,11 @@
                 <div class="articles-right">
                     <!--侧边栏三张图片 -->
                     <div class="banner ad ad-sidergt hasad">
-                    	<a href="#">
+                    	<a href="#" class="adpic">
                     		<img src="images/sidebar-ad.jpg" alt="" class="add-ar">
                     	</a>
                         <a href="" class="adpic">
-                            <img src="images/Side-Box-f37737.jpg" alt="" style="margin-bottom: 15px;">
+                            <img src="images/Side-Box-f37737.jpg" alt="" style="margin-top: 15px; margin-bottom: 20px;">
                         </a>
                         <a href="" class="adpic">
                             <img src="images/waw_uf_banner_280x280_122016-23cd45.jpg" alt="">
@@ -537,7 +537,7 @@
         <div class="bottom-article">
             <div class="article-box banxin">
                 <div class="article-content">
-                    <div class="article-list">
+                    <div class="article-list clearfix">
                         <div class="article-title">
                             <span class="rec-article"></span>
                         </div>
@@ -655,5 +655,14 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/content.js"></script>
         <script src="js/swiper.min.js"></script>
+        <script>
+            // 学校轮播图
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 3,
+                paginationClickable: true,
+                spaceBetween: 25,
+            });
+        </script>
     </body>
 </html>

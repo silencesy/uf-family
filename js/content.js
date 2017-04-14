@@ -31,7 +31,8 @@ $(function(){
                 "position": "fixed",
                 "top": 0,
                 "left": 0,
-                "display": "block"
+                "display": "block",
+                "z-index": "1030"
             });
         } else {
             $(".fixed-nav").css("display","none");
@@ -49,13 +50,4 @@ $(function(){
         $(this).css("color","#ad9f85").siblings('li').css('color',"#444").parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
         $(this).css({"color":"#ad9f85","borderBottom":"2px solid #ABA084"}).siblings('li').css({"color":"#444","borderBottom":"none"}).parents('.articles-listing').find('.articles-listing-box').eq(index).addClass("show").siblings('div').removeClass("show");
     });
-
-    // 学校轮播图
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 3,
-        paginationClickable: true,
-        spaceBetween: 25,
-    });
-
 });

@@ -352,6 +352,7 @@ s, i, em {
 /*文章部分开始*/
 .articles-list {
     height: 2000px;
+    background-color: #fff;
 }
 
 
@@ -365,12 +366,12 @@ s, i, em {
 }
 
 .articles-list .articles-left .articles-listing {
-    height: 366px;
+    // height: 366px;
     width: 705px;
 }
 
 .articles-listing-title {
-    height: 53px;
+    // height: 53px;
     line-height: 51px;
     border-bottom: 1px solid #DFDFDF;
     position: relative;
@@ -460,7 +461,7 @@ s, i, em {
 
 /*文章右边部分*/
 .latest-activity {
-    margin-top: 28px;
+    margin-top: 24px;
     height: auto;
     background-color: #fff;
     border: 1px solid #E0E0E0;
@@ -518,8 +519,10 @@ s, i, em {
     float: left;
 }
 
+
+
 .alidethats {
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 
@@ -611,7 +614,7 @@ s, i, em {
 }
 
 .bottom-article .article-box .article-list {
-    height: 177px;
+    // height: 177px;
     border: 1px solid #C9C9C9;
     position: relative;
 }
