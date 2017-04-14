@@ -984,6 +984,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 .writing .img-container {
     max-height: 158px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 .img-container > a > img {
