@@ -693,6 +693,9 @@ input[type="text"], input[type="email"], input[type="password"] {
     width: 75%;
     margin-bottom: 5px;
 }
+.data-duiqi {
+    margin-left: -30px !important;
+}
 .ac-left .writing-container .col-sm-7>.serve-contact .data-dd span {
     font-size: 14px;
     color: #666;    
@@ -1173,7 +1176,9 @@ input[type="text"], input[type="email"], input[type="password"] {
     .ad-sidergt img {
         width: 100%;
     }
-
+    .data-duiqi {
+        margin-left: -6% !important;
+    }
 
     /*-- school-details --*/
     #myCarousel .carousel-inner img {
