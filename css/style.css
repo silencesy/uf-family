@@ -790,6 +790,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     height: 32px;
     float: left;
     margin-left: 10px; 
+    cursor: pointer;
 }
 
 .toolbar li a {
