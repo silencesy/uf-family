@@ -302,6 +302,7 @@ s, i, em {
 /*轮播图*/
 #myCarousel .carousel-inner img {
     width: 705px;
+    height: 460px;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none;
@@ -350,7 +351,7 @@ s, i, em {
 
 /*文章部分开始*/
 .articles-list {
-    height: 1500px;
+    height: 2000px;
 }
 
 
