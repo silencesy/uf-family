@@ -233,6 +233,7 @@ body {
 }
 .add-ar {
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 /*-- 翻页 --*/
 .pagination>li {
@@ -976,6 +977,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 .writing .img-container {
     max-height: 158px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 .img-container > a > img {
