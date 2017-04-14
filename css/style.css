@@ -171,63 +171,68 @@
     border-radius: 3px !important;
 }
 
-
+body {
+    background-color: #F5F5F5;
+}
 
 /*-- quality-life --*/
 .container {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 0;	
-	overflow: hidden;
+	overflow: hidden;  
 }
 /*-- tab --*/
-#quality-life .container .show {
+.container .show {
     display: block;
 }
-#quality-life .container .articles-listing-box {
+.container .articles-listing-box {
     display: none;
 }
 
 /*-- End tab --*/
-#quality-life .container .life-left {
+.container .life-left {
 	width: 70.5%;
 	float: left;
 }
-#quality-life .container .life-right {
+.container .life-right {
 	width: 28%;
 	float: left;
 	margin-left: 15px;
 }
-#quality-life .container .articles-listing-title {
+.container .articles-listing-title {
 	margin-bottom: 20px;
 }
-#quality-life .life-left .articles-listing-box .life-content:nth-of-type(odd) {
+.life-left .articles-listing-box .life-content:nth-of-type(odd) {
 	margin-right: 25px;
 }
-#quality-life .container .life-left .life-content {
+.container .life-left .life-content {
 	width: 340px;
 	text-align: center;
 	float: left;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
 }
-#quality-life .container .life-left .life-content img {
+.container .life-left .life-content img {
 	margin-bottom: 13px;
 }
-#quality-life .container .life-left .life-content p {
+.container .life-left .life-content p {
 	color: #444;
 	font-size: 16px;
 	margin-bottom: 13px;
 }
-#quality-life .container .life-left .life-content span {
+.container .life-left .life-content span {
 	color: #666;
 	font-size: 14px;
 	margin-bottom: 15px;
 	display: inline-block;
 }
-#quality-life .container .life-right .latest-activity {
+.container .life-right .latest-activity {
     margin-bottom: 51px;
     margin-top: 0;
+}
+.add-ar {
+    margin-top: 15px;
 }
 /*-- 翻页 --*/
 .pagination>li {
@@ -256,7 +261,6 @@
     padding: 20px 0 0px 14px;
     background-color: #fff;
     width: 703px;
-    height: 145px;
 }
 .line-dashed {
     height: 1px;
@@ -368,9 +372,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-size: 18px;
 }
 /*-- activity --*/
-#activity { background-color: #F5F5F5;}
-#activity .header-nav { background-color: #fff;}
-#activity .bottom-article { background-color: #fff;}
+.header-nav { background-color: #fff;}
+.bottom-article { background-color: #fff;}
 .breadcrumb {
 	font-size: 14px;
 	padding-left: 0;
@@ -388,22 +391,21 @@ input[type="text"], input[type="email"], input[type="password"] {
 	width: 280px;
 	float: left;
 }
-
-#activity .container .writing {
-    margin: 20px 0;
+.container .writing {
+    margin-top: 20px;
 }
-#activity .container .range-control h2 {
+.container .range-control h2 {
     font-size: 16px;
 
 }
-#activity .container .writing h2 a, .writing h3 a {
+.container .writing h2 a, .writing h3 a {
     color: #444;
     font-size: 14px;
 }
-#activity .container .writing-container .time-stamp {
+.container .writing-container .time-stamp {
     padding-top: 10px;
 }
-#activity .container .tagbala .btn, .kw .btn {
+.container .tagbala .btn, .kw .btn {
     height: 22px;
     line-height: 22px;
     padding: 0 13px;
@@ -416,22 +418,22 @@ input[type="text"], input[type="email"], input[type="password"] {
     position: relative;
     border-radius: 4px;
 }
-#activity .container .select-type .col-sm-3 {
+.container .select-type .col-sm-3 {
     width: 20%;
 }
-#activity .container .select-type .input-group {
+.container .select-type .input-group {
     position: relative;
 }
-#activity .container #event-dateline {
+.container #event-dateline {
     width: 200px;
     height: 28px;
 }
-#activity .container #day2 {
+.container #day2 {
     position: absolute;
     right: 7px;
     top: 3px;
 }
-#activity .container .range-control .uf-calendar .month {
+.container .range-control .uf-calendar .month {
 	margin-top: 35px;
 	width: 70px;
     background: #ad9f85;
@@ -440,7 +442,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     /*border-radius: 4px 4px 0 0;*/
     padding: 5px 0;
 }
-#activity .container .range-control .uf-calendar .day {
+.container .range-control .uf-calendar .day {
 	width: 70px;
 	height: 37px;
     line-height: 35px;
@@ -451,99 +453,92 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-right: 5px solid #ad9f85;
     border-bottom: 5px solid #ad9f85;
 }
-#activity .container .range-control p {
+.container .range-control p {
     font-size: 14px;
     color: #444;
 
 }
-#activity .container .ac-list .line-dashed {
+.container .ac-list .line-dashed {
 	border-bottom: 1px solid #ddd;
 }
-#activity .container .ac-list .col-sm-3 {
+.container .ac-list .col-sm-3 {
 	padding-left: 0;
 }
-#activity .container .ac-right .latest-activity {
+.container .ac-right .latest-activity {
     margin-top: 15px;
 }
 
 /*-- event-details --*/
-#event-details {
-    background-color: #F5F5F5;
-}
-#event-details .ac-left .writing-container .writing {
+.ac-left .writing-container .writing {
     margin: 20px 0;
 }
-#event-details .ac-left .writing-container h1 {
+.ac-left .writing-container h1 {
     font-size: 24px;
     color: #444;
 }
-#event-details .ac-left .writing-container .col-sm-5 {
+.ac-left .writing-container .col-sm-5 {
     width: 31%;
     padding: 0;
 }
-#event-details .ac-left .writing-container .writing .listings-pic {
+.ac-left .writing-container .writing .listings-pic {
     max-width: 214px;
     max-height: 155px;
     width: 214px;
     height: 155px;    
 }
-#event-details .ac-left .writing-container .writing .img-container {
+.ac-left .writing-container .writing .img-container {
     overflow: hidden;
 }
-#event-details .ac-left .writing-container .listings-pic img {   
-    // width: auto !important;
-    // height: 100%;    
-}
-#event-details .ac-left .writing-container .writing .col-sm-7 {
+.ac-left .writing-container .writing .col-sm-7 {
     width: 69%;
 }
-#event-details .ac-left .writing-container .data-dt, .data-dd {
+.ac-left .writing-container .data-dt, .data-dd {
     display: inline-block;
     word-break: break-all;
 }
-#event-details .ac-left .writing-container .col-sm-7>.serve-contact {
+.ac-left .writing-container .col-sm-7>.serve-contact {
     padding-left: 5px;
 }
-#event-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
     width: 13%;
 }
-#event-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
     width: 72%;
 }
-#event-details .ac-left .writing-container .venues-list .data-dt {
+.ac-left .writing-container .venues-list .data-dt {
     width: 13%;
     margin-left: 5px;
     vertical-align: top;
     margin-bottom: 10px;
 }
-#event-details .ac-left .writing-container .venues-list .data-dd {
+.ac-left .writing-container .venues-list .data-dd {
     width: 72%;
     vertical-align: top;
     margin-bottom: 10px;
 }
-#event-details .ac-left .writing-container .text-muted {
+.ac-left .writing-container .text-muted {
     font-size: 14px;
     color: #444;
 }
-#event-details .ac-left .writing-container .data-dd span {
+.ac-left .writing-container .data-dd span {
     font-size: 14px;
     color: #666;
 }
-#event-details .ac-left .writing-container .venues-list .serve-contact {
+.ac-left .writing-container .venues-list .serve-contact {
     padding-top: 10px;
     border-bottom: 1px solid #ddd;
 }
-#event-details .ac-left .writing-container p {
+.ac-left .writing-container p {
     color: #444;
     font-size: 16px;
     padding-bottom: 10px;
     margin-left: 15px;
     margin-top: 14px;
 }
-#event-details .ac-right .latest-activity {
+.ac-right .latest-activity {
     margin-top: 14px;
 }
-#event-details .ac-left #listingMapContent {
+.ac-left #listingMapContent {
     height: 500px;
 }
 
@@ -561,8 +556,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-radius: 4px;
 }
 
-/*--#event-details table --*/
-#event-details .ac-left .text-container p {
+/*--event-details table --*/
+.ac-left .text-container p {
     background-color: #dfdfdf;
     font-size: 14px;
     color: #444;
@@ -570,23 +565,23 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding-right: 16px;
     padding-bottom: 5px;
 }
-#event-details .ac-left .text-container p:nth-of-type(1) {
+.ac-left .text-container p:nth-of-type(1) {
     padding-top: 16px;
 }
-#event-details .ac-left .text-container p:nth-of-type(4) {
+.ac-left .text-container p:nth-of-type(4) {
     padding-bottom: 10px;
 }
-#event-details .ac-left .toolbar {
+.ac-left .toolbar {
     margin-top: 14px;
 }
-#event-details .ac-left .text-container table {
+.ac-left .text-container table {
     width: 100%;
 }
-#event-details .ac-left .text-container tr {
+.ac-left .text-container tr {
     width: 100%;
     height: 34px;
 }
-#event-details .ac-left .text-container table td:nth-of-type(1) {
+.ac-left .text-container table td:nth-of-type(1) {
     width: 20%;
     text-align: center;
     font-size: 16px;
@@ -594,26 +589,26 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-right:1px solid #ddd;
     border-bottom: 1px solid #ddd; 
 }
-#event-details .ac-left .text-container table td:nth-of-type(2) {
+.ac-left .text-container table td:nth-of-type(2) {
     width: 80%;
     font-size: 14px;
     color: #444;
     border-bottom: 1px solid #ddd;
     padding-left: 21px;
 }
-#event-details .ac-left .text-container table tr:nth-of-type(11) {
+.ac-left .text-container table tr:nth-of-type(11) {
     background-color: #ad9f85;
 }
-#event-details .ac-left .text-container table tr:nth-of-type(13) {
+.ac-left .text-container table tr:nth-of-type(13) {
     background-color: #ad9f85;
 }
-#event-details .ac-left .text-container table tr:nth-of-type(11) td{
+.ac-left .text-container table tr:nth-of-type(11) td{
     color: #fff;
 }
-#event-details .ac-left .text-container table tr:nth-of-type(13) td{
+.ac-left .text-container table tr:nth-of-type(13) td{
     color: #fff;
 }
-/*--#event-details table end --*/
+/*--event-details table end --*/
 
 /*-- Map --*/
 .layout-map {
@@ -645,79 +640,76 @@ input[type="text"], input[type="email"], input[type="password"] {
 /*-- Map end --*/
 
 /*-- School-details --*/
-#school-details {
-    background-color: #F5F5F5;
-}
-#school-details .ac-left .writing-container .writing {
+.ac-left .writing-container .writing {
     margin-top: 20px;
 }
-#school-details .ac-left .writing-container h1 {
+.ac-left .writing-container h1 {
     font-size: 24px;
     color: #444;
 }
-#school-details .ac-left .writing-container .col-sm-5 {
+.ac-left .writing-container .col-sm-5 {
     width: 31%;
     padding: 0;
 }
-#school-details .ac-left .writing-container .writing .listings-pic {
+.ac-left .writing-container .writing .listings-pic {
     max-width: 214px;
     max-height: 138px;
     width: 214px;
     height: 138px;    
 }
-#school-details .ac-left .writing-container .writing .img-container {
+.ac-left .writing-container .writing .img-container {
     overflow: hidden;
 }
-#school-details .ac-left .writing-container .writing .col-sm-7 {
+.ac-left .writing-container .writing .col-sm-7 {
     width: 69%;
 }
-#school-details .ac-left .writing-container .data-dt, .data-dd {
+.ac-left .writing-container .data-dt, .data-dd {
     display: inline-block;
     word-break: break-all;
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact {
+.ac-left .writing-container .col-sm-7>.serve-contact {
     padding-left: 5px;
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dt {
     width: 20%;
     margin-bottom: 5px;
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dt span {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dt span {
     font-size: 14px;
     color: #444;
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dd {
     width: 75%;
     margin-bottom: 5px;
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact .data-dd span {
+.ac-left .writing-container .col-sm-7>.serve-contact .data-dd span {
     font-size: 14px;
     color: #666;    
 }
-#school-details .ac-left .writing-container .col-sm-7>.serve-contact .serve-info a {
+.ac-left .writing-container .col-sm-7>.serve-contact .serve-info a {
     font-size: 14px;
     color: #ad9f85;
 }
-#school-details .ac-left .writing-container .col-sm-7 .share-content {
+.ac-left .writing-container .col-sm-7 .share-content {
     padding: 0;
 }
-#school-details .ac-left table {
+.ac-left table {
     widows: 100%;
     background-color: #fff;
 }
-#school-details .ac-left table tr {
+.ac-left table tr {
     width: 100%;
     height: 34px;    
 }
-#school-details .ac-left table tr:nth-of-type(4) td {
+.ac-left table tr:nth-of-type(4) td {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#school-details .ac-left table tr:nth-of-type(6) td {
+.ac-left table tr:nth-of-type(6) td {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-#school-details .ac-left table td:nth-of-type(1) {
+.ac-left table td:nth-of-type(1) {
     width: 20%;
     text-align: center;
     border-right: 1px solid #ddd;
@@ -725,21 +717,21 @@ input[type="text"], input[type="email"], input[type="password"] {
     font-size: 16px;
     color: #444;
 }
-#school-details .ac-left table td:nth-of-type(2) {
+.ac-left table td:nth-of-type(2) {
     width: 80%;
     border-bottom: 1px solid #ddd;
     padding-left: 22px;
     font-size: 14px;
     color: #444;
 }
-#school-details .ac-left table tr:nth-of-type(7) td {
+.ac-left table tr:nth-of-type(7) td {
     border-bottom: 0;
 }
 
-#school-details .ac-left .school-content {
+.ac-left .school-content {
     width: 100%;
 }
-#school-details .ac-left .school-content div p:nth-of-type(1) {
+.ac-left .school-content div p:nth-of-type(1) {
     width: 100%;
     height: 30px;
     line-height: 30px;
@@ -748,14 +740,14 @@ input[type="text"], input[type="email"], input[type="password"] {
     background-color: #ad9f85;
     padding-left: 16px;
 }
-#school-details .ac-left .school-content div p:nth-of-type(2) {
+.ac-left .school-content div p:nth-of-type(2) {
     padding: 10px 0 10px 16px;
     font-size: 14px;
     color: #666;
     background-color: #fff;
 }
 /*-- 图集 --*/
-#school-details .carousel-inner img {
+.carousel-inner img {
     width: 705px;
     height: 440px;
 }
@@ -764,14 +756,14 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 
 /*文章盒子*/
-#article-details .word-container h1 {
+.word-container h1 {
     font-size: 24px;
     color: #444;
     font-weight: 900;
     margin: 20px 0 16px 0;
 }
 
-#article-details .word-container span {
+.word-container span {
     display: inline-block;
     font-size: 16px;
     color: #444;
@@ -817,27 +809,27 @@ input[type="text"], input[type="email"], input[type="password"] {
     padding: 20px 0 26px 0;
 }
 
-#article-details .word-content p,#article-details .word-content div {
+.word-content p,#article-details .word-content div {
     color: #444;
     font-size: 16px;
     margin-bottom: 40px;
 }
 
-#article-details .word-content div:nth-child(2) {
+.word-content div:nth-child(2) {
     margin-bottom: 30px;
 }
 
-#article-details .share-content span {
+.share-content span {
     float: left;
     color: #444;
     font-size: 14px;
 }
 
-#article-details .share-content span:nth-child(2){
+.share-content span:nth-child(2){
     margin-left: 72px;
 }
 
-#article-details .share-content>a {
+.share-content>a {
     display: inline-block;
     float: left;
     color: #797979;
@@ -849,30 +841,29 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 /*相关文章*/
-#article-details .related-articles {
+.related-articles {
     height: 360px;
-    // background-color: pink;
 }
 
-#article-details .related-articles .title {
+.related-articles .title {
     height: 50px;
     line-height: 50px;
     border-bottom: 1px solid #DFDFDF;
     position: relative;
 }
 
-#article-details .related-articles .title span {
+.related-articles .title span {
     font-size: 24px;
     color: #444;
 }
 
-#article-details .related-articles .title a {
+.related-articles .title a {
     color: #ABA084;
     font-style: 16px;
     float: right;
 }
 
-#article-details .related-articles .title .line {
+.related-articles .title .line {
     display: inline-block;
     width: 94px;
     height: 2px;
@@ -917,67 +908,65 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 
 /*侧边栏*/
-#article-details .latest-activity {
+.latest-activity {
     height: auto;
 }
 
-#article-details .ad-sli {
+.ad-sli {
     margin-top: 15px;
 }
 
 /*文章详情页结束*/
 
 /*-- school-list --*/
-#school-list {
-    background-color: #F5F5F5; 
-}
-#school-list .ac-left .select {
-    height: 220px;
-}
-#school-list .ac-left .list-type {
+.ac-left .list-type {
     width: 20%;
 }
 
-#school-list .ac-left .list-all {
+.ac-left .list-all {
     width: 80%;
 }
-
-#school-list .list-all li a {
+.select .select-type:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+.list-all li a {
     margin-right: 10px;
 }
-#school-list .list-all .pull-left {
+
+.list-all .select-sort {
+    margin-top: 15px;
     margin-bottom: 15px;
 }
-#school-list .list-all .select-sort {
-    margin-top: 15px;
-}
-#school-list .select-sort a.active {
+.select-sort a.active {
     background: #1da1f2;
     padding: 3px 10px;
     border-radius: 4px;
     color: #fff;
 }
-#school-list .select-sort li {
+.select-sort li {
     margin-right: 20px;
 }
-#school-list .select-sort li a {
+.select-sort li a {
     color: #000;   
 }
 
-#school-list .school-info {
+.school-info {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
 }
-#school-list .school-info .writing {
+.school-info .writing {
     margin-right: 0;
 }
-#school-list .school-info .col-sm-8 {
+.school-info .writing .col-sm-4 {
+    padding-left: 0;
+}
+.school-info .col-sm-8 {
     padding: 0;    
 }
-#school-list .school-info .zo a {
+.school-info .zo a {
     font-size: 16px;
     color: #444;
     font-weight: bold;
@@ -985,48 +974,48 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-bottom: 15px;
     display: inline-block;
 }
-#school-list .writing .img-container {
+.writing .img-container {
     max-height: 158px;
     overflow: hidden;
 }
-#school-list .img-container > a > img {
+.img-container > a > img {
     width: 100%;
     max-width: 100%;
 }
-#school-list .writing .d-zh {
+.writing .d-zh {
     margin-left: 0;
     margin-right: 0;
     border-bottom: 1px solid #ddd;
     margin-bottom: 15px;
 }
-#school-list .writing .dz {
+.writing .dz {
     width: 23%;
     padding: 0; 
 }
-#school-list .writing .dh {
+.writing .dh {
     padding: 0; 
 }
-#school-list .writing p {
+.writing p {
     font-size: 14px;
     padding-bottom: 13px;
 }
-#school-list .writing .dz p {
+.writing .dz p {
     color: #444;
 }
-#school-list .writing .dh p {
+.writing .dh p {
     color: #666;
 }
-#school-list .writing .xf {
+.writing .xf {
     width: 40%;
     padding-right: 0;
 }
-#school-list .writing .bj {
+.writing .bj {
     width: 35%;
     padding-left: 10px;
 }
-#school-list .writing .xq {
+.writing .xq {
     width: 15%;
-    height: 24px;
+    height: 27px;
     line-height: 24px;
     padding: 0;
     text-align: center;
@@ -1036,15 +1025,15 @@ input[type="text"], input[type="email"], input[type="password"] {
     margin-top: 13px;
     margin-left: 8px;
 }
-#school-list .writing .xq p {
+.writing .xq p a {
     font-size: 14px;
-    color: #fff !important;
+    color: #fff;
 }
-#school-list .writing .col-md-4 p {
+.writing .col-md-4 p {
     font-size: 14px;
     color: #01a4e3;
 }
-#school-list .writing .col-md-4 p span {
+.writing .col-md-4 p span {
     color: #666;
 }
 
@@ -1057,7 +1046,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 /***================  响应式  ================***/
 
 @media screen and (max-width:768px) {
-
+    /*-- quality-life 品质生活 --*/
     .header {
         display: none;
     }
@@ -1111,8 +1100,37 @@ input[type="text"], input[type="email"], input[type="password"] {
         text-align: center;
     }
 
+    /*-- activity 活动 --*/
+
+    #activity .select {
+        width: 49%;
+        height: 175px;
+    }
+    #activity .container .select-type .col-sm-3 {
+        width: 25%;
+    }
+    #activity .container .select-type .col-sm-9 {
+        width: 75%;
+    }
+    #activity .container .select-type .col-sm-3 {
+        
+    }
+    .ac-list .col-xs-7 {
+        width: 25%;
+    }
+    .page-run {
+        width: 50%;
+    }
+    #activity .ac-right > a img {
+        display: none;
+    }
+    .ac-right {
+        width: 100%;
+    }
 
 
+
+    /*-- footer  --*/
     .footer {
         display: none;
     }

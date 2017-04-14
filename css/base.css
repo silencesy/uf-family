@@ -293,7 +293,6 @@ s, i, em {
 /*广告和轮播图开始*/
 .Carousel-box {
     height: 495px;
-    background-color: #F5F5F5;
 }
 
 .Carousel-box .Carousel-cont {
@@ -352,7 +351,6 @@ s, i, em {
 /*文章部分开始*/
 .articles-list {
     height: 1500px;
-    background-color: #fff;
 }
 
 
